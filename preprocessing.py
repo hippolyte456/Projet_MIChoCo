@@ -19,7 +19,7 @@ print('sum')
 print(len(df['PLAT '].value_counts().unique())) # Combien de plats possibles ? --> 11 plats différents 
 print(df['PLAT '].value_counts()) # Quel sont-ils ? 
 
-# On observe qu'une mise en forme va être nécssaire. En efet, à cause des espaces, les plats suivants : 
+# On observe qu'une mise en forme va être nécéssaire. En efet, à cause des espaces, les plats suivants : 
 # "Boeuf  bourguignon + Torsades +Poelée brocolis" / "Boeuf bourguignon + Torsades + Poelée brocolis " / "Boeuf  bourguignon + Torsades + Poelée brocolis "
 # Ne sont pas considérés comme étant les mêmes. 
 
@@ -35,13 +35,32 @@ print(df['PLAT '].value_counts()) # Quel sont-ils ?
 # On observe tout de meme qu'il reste qqs problèmes.
 # Par exemple, un '+' a été oublié, si bien que "FeuilletéSaumonoseille+TorsadesPoeléebrocolis" et "FeuilletéSaumonoseille+Torsades+PoeléeBrocolis"
 # ne sont pas considérés comme équivalents. 
-# --> pas d'autres choix que de rajouter le '+' à la main (?) 
+# --> pas d'autres choix que de rajouter le '+' à la main (?)
 
 # Pour garder les données d'origine intactes en cas de soucis, créons un dossier 'data_processed' 
-# sur lequel on travaillera et qui contiendra ce genre de modifications.  
+# sur lequel on travaillera et qui contiendra ce genre de modifications.   # DONE 
+
+# On recommence et on obtient alors :
+print(len(df['PLAT '].value_counts().unique())) # Combien de plats possibles ? --> 8 plats differents 
+print(df['PLAT '].value_counts()) # Quel sont-ils ? 
+
+# On observe qu'à cause d'un problème de casse, "FeuilletéSaumonoseille+Torsades+Poeléebrocolis " et "FeuilletéSaumonoseille+Torsades+PoeléeBrocolis"
+# sont considérés comme 2 plats differents 
+# --> on enlève la casse 
+df['PLAT '] = df['PLAT '].str.lower()
+# On recommence et on obtient alors :
+print(len(df['PLAT '].value_counts().unique())) # Combien de plats possibles ? --> 8 plats differents 
+print(df['PLAT '].value_counts()) # Quel sont-ils ? 
+
+# Répondons à quelques questions simples : 
+
+print(df['PLAT '].str.count("torsades").sum()) # A - Combien de personnes ont pris des torsades ? --> 96 
+print(df['PLAT '].str.count("frites").sum()) # A - Combien de personnes ont pris des frites ? --> 12
+print(df['PLAT '].str.count("pizza").sum()) # A - Combien de personnes ont pris des pizza ? --> 4
+
 
 '''
-# Séparons en plusieurs colonnes la colonne 'PLAT' en utilisant le '+' qui sépare 2 items 
+# Séparons maintenant en plusieurs colonnes la colonne 'PLAT' en utilisant le '+' qui sépare 2 items 
 # L'item i se retrouve dans la colonne 'PLAT_i'
 df[['PLAT_1','PLAT_2', 'PLAT_3']] = df['PLAT '].str.split('+', expand=True)
 
