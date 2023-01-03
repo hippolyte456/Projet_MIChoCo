@@ -1,68 +1,68 @@
-Horodateur,NumÃ©ro de formulaire,ENTREE,PLAT_1,PLAT_2,PLAT_3,DESSERT_1,DESSERT_2
-  12:30:58,9V8W,Chou blanc,Roti de lÃ©gumes au tofu , Spaghettis,,Pas de dessert,
-  12:33:56,8B5X,Pas d'entrÃ©e,Roti de lÃ©gumes au tofu , Spaghettis,,Roquefort , Pruneaux en sirop 
-  12:34:46,6X9F,Rillette poisson,Poisson panÃ© , Spaghettis , Mousseline de potiron,CrÃ¨me pralinÃ© , Orange
-  12:35:27,7B7K,Mini sandwich,Filet de poulet , Spaghettis , Mousseline de potiron,Yaourt nature Bio , CrÃ¨me pralinÃ©
-  12:35:56,3Q7Q,Mini sandwich,Poisson panÃ© , Spaghettis , Mousseline de potiron,Banane,
-  12:36:59,1C8S,Betterave,Poisson panÃ© , Spaghettis , Mousseline de potiron,Pruneaux en sirop , Pomme
-  12:37:48,OL7Y,Pas d'entrÃ©e,Poisson panÃ© , Spaghettis,,Roquefort , Banane + Pomme 
-  12:39:19,9E7A,Mini sandwich,Poisson panÃ© , Spaghettis , Mousseline de potiron,Yaourt nature Bio , Banane
-  12:40:23,4B5E,Salade de pommes de terre,Poisson panÃ© , Spaghettis , Mousseline de potiron,Compote ,
+Horodateur,Numéro de formulaire,ENTREE,PLAT_1,PLAT_2,PLAT_3,DESSERT_1,DESSERT_2
+  12:30:58,9V8W,Chou blanc,Roti de légumes au tofu , Spaghettis,,Pas de dessert,
+  12:33:56,8B5X,Pas d'entrée,Roti de légumes au tofu , Spaghettis,,Roquefort , Pruneaux en sirop 
+  12:34:46,6X9F,Rillette poisson,Poisson pané , Spaghettis , Mousseline de potiron,Crème praliné , Orange
+  12:35:27,7B7K,Mini sandwich,Filet de poulet , Spaghettis , Mousseline de potiron,Yaourt nature Bio , Crème praliné
+  12:35:56,3Q7Q,Mini sandwich,Poisson pané , Spaghettis , Mousseline de potiron,Banane,
+  12:36:59,1C8S,Betterave,Poisson pané , Spaghettis , Mousseline de potiron,Pruneaux en sirop , Pomme
+  12:37:48,OL7Y,Pas d'entrée,Poisson pané , Spaghettis,,Roquefort , Banane + Pomme 
+  12:39:19,9E7A,Mini sandwich,Poisson pané , Spaghettis , Mousseline de potiron,Yaourt nature Bio , Banane
+  12:40:23,4B5E,Salade de pommes de terre,Poisson pané , Spaghettis , Mousseline de potiron,Compote ,
   12:40:41,607K,Betterave,Filet de poulet , Spaghettis , Mousseline de potiron,Yaourt nature Bio , Pruneaux en sirop
-  12:41:08,9P2T,Champignons,Poisson panÃ© , Spaghettis , Mousseline de potiron,Cantal AOP , Kiwi
-  12:41:48,8X9Z,Pas d'entrÃ©e,Poisson panÃ© , Spaghettis , Mousseline de potiron,Roquefort , Yaourt nature Bio
-  12:42:09,1G7J,Betterave,Filet de poulet , Spaghettis , Mousseline de potiron,CrÃ¨me pralinÃ© , Banane
-  12:42:12,6O7K,Betterave,Filet de poulet , Spaghettis , lÃ©gumes,Yaourt nature Bio , Pruneaux en sirop
+  12:41:08,9P2T,Champignons,Poisson pané , Spaghettis , Mousseline de potiron,Cantal AOP , Kiwi
+  12:41:48,8X9Z,Pas d'entrée,Poisson pané , Spaghettis , Mousseline de potiron,Roquefort , Yaourt nature Bio
+  12:42:09,1G7J,Betterave,Filet de poulet , Spaghettis , Mousseline de potiron,Crème praliné , Banane
+  12:42:12,6O7K,Betterave,Filet de poulet , Spaghettis , légumes,Yaourt nature Bio , Pruneaux en sirop
   12:43:06,7J8O,Salade de pommes de terre,Filet de poulet , Mousseline de potiron,,Banane ,
-  12:44:22,6V3U,Champignons,Poisson panÃ© , Spaghettis , Mousseline de potiron,Cantal AOP , Yaourt nature Bio
+  12:44:22,6V3U,Champignons,Poisson pané , Spaghettis , Mousseline de potiron,Cantal AOP , Yaourt nature Bio
   12:45:12,7S0F,Rillette poisson,Filet de poulet , Spaghettis , Mousseline de potiron,Cantal AOP , Banane
-  12:45:15,2J2Y,Pas d'entrÃ©e,Filet de poulet , Spaghettis , Mousseline de potiron,Cantal AOP , Orange
+  12:45:15,2J2Y,Pas d'entrée,Filet de poulet , Spaghettis , Mousseline de potiron,Cantal AOP , Orange
   12:46:04,7I1E,Salade de pommes de terre,Filet de poulet , Spaghettis , Mousseline de potiron,Roquefort,
-  12:48:26,658Q,Pas d'entrÃ©e,Poisson panÃ© , Spaghettis , Mousseline de potiron,Cantal AOP ,
-  12:48:59,7M4D,Champignons,Roti de lÃ©gumes au tofu , Spaghettis,,Pruneaux en sirop , Pomme
-  12:49:14,9B8H,Pas d'entrÃ©e,EntrecÃ´te , Frites , Salade,Pas de dessert,
-  12:49:52,1Q7I,Pas d'entrÃ©e,EntrecÃ´te , Frites , Salade,Orange,
-  12:50:18,4T8H,Pas d'entrÃ©e,Poisson panÃ© , Spaghettis , Mousseline de potiron,Roquefort , CrÃ¨me pralinÃ© 
-  12:50:56,3Y3E,Mini sandwich,Poisson panÃ© , Spaghettis,,Yaourt nature Bio , Compote
-  12:52:24,8D9G,Pas d'entrÃ©e,Filet de poulet , Spaghettis , Mousseline de potiron,Banane ,
+  12:48:26,658Q,Pas d'entrée,Poisson pané , Spaghettis , Mousseline de potiron,Cantal AOP ,
+  12:48:59,7M4D,Champignons,Roti de légumes au tofu , Spaghettis,,Pruneaux en sirop , Pomme
+  12:49:14,9B8H,Pas d'entrée,Entrecôte , Frites , Salade,Pas de dessert,
+  12:49:52,1Q7I,Pas d'entrée,Entrecôte , Frites , Salade,Orange,
+  12:50:18,4T8H,Pas d'entrée,Poisson pané , Spaghettis , Mousseline de potiron,Roquefort , Crème praliné 
+  12:50:56,3Y3E,Mini sandwich,Poisson pané , Spaghettis,,Yaourt nature Bio , Compote
+  12:52:24,8D9G,Pas d'entrée,Filet de poulet , Spaghettis , Mousseline de potiron,Banane ,
   12:52:32,5M0T,Salade de riz,Filet de poulet , Spaghettis , Mousseline de potiron,Yaourt nature Bio , Pomme
-  12:53:03,1G7G,Betterave,Poisson panÃ© , Spaghettis,,CrÃ¨me pralinÃ© ,
-  12:53:33,4Z5F,Pas d'entrÃ©e,Filet de poulet , Spaghettis,,Roquefort , Yaourt nature Bio
-  12:53:35,8E0Y,Pas d'entrÃ©e,Filet de poulet , Spaghettis,,Banane ,
-  12:54:07,3Q2Q,Champignons,Poisson panÃ© , Spaghettis , Mousseline de potiron,Banane,
-  12:54:38,9R6Y,Rillette poisson,Filet de poulet , Spaghettis , Mousseline de potiron,CrÃ¨me pralinÃ©,
-  12:54:39,4F9D,Salade de pommes de terre,Poisson panÃ© , Spaghettis,,CrÃ¨me pralinÃ©,
-  12:55:38,7K6K,Champignons,Roti de lÃ©gumes au tofu , Spaghettis,,Yaourt nature Bio , Banane
-  12:55:40,800N,Pas d'entrÃ©e,Filet de poulet , Spaghettis , Mousseline de potiron,Yaourt nature Bio,
-  12:56:32,3W7U,Pas d'entrÃ©e,Poisson panÃ© , Spaghettis , Mousseline de potiron,Yaourt nature Bio , Pomme
-  12:57:25,4J8L,Pas d'entrÃ©e,Kebab , Frites,,Pas de dessert,
-  12:58:01,0I7G,Pas d'entrÃ©e,Roti de lÃ©gumes au tofu , Spaghettis,,Roquefort , CrÃ¨me pralinÃ©
-  12:58:03,2R9X,Chou blanc,Roti de lÃ©gumes au tofu , Spaghettis,,Cantal AOP , Banane
-  12:58:27,1U7O,Pas d'entrÃ©e,Filet de poulet , Spaghettis , Mousseline de potiron,CrÃ¨me pralinÃ© , Pomme 
-  12:58:45,3F4Z,PÃ¢tÃ©,Roti de lÃ©gumes au tofu , Spaghettis,,Yaourt nature Bio ,
-  12:59:05,4C0V,Pas d'entrÃ©e,Roti de lÃ©gumes au tofu , Spaghettis,,Banane,
-  12:59:20,0X7C,Pas d'entrÃ©e,Poisson panÃ© , Spaghettis , Mousseline de potiron,Yaourt nature Bio , CrÃ¨me pralinÃ©
-  12:59:28,3R3M,Pas d'entrÃ©e,Poisson panÃ© , Spaghettis , Mousseline de potiron,Banane ,
-  12:59:45,3M6S,Pas d'entrÃ©e,Poisson panÃ©  , Mousseline de potiron,,Roquefort ,
+  12:53:03,1G7G,Betterave,Poisson pané , Spaghettis,,Crème praliné ,
+  12:53:33,4Z5F,Pas d'entrée,Filet de poulet , Spaghettis,,Roquefort , Yaourt nature Bio
+  12:53:35,8E0Y,Pas d'entrée,Filet de poulet , Spaghettis,,Banane ,
+  12:54:07,3Q2Q,Champignons,Poisson pané , Spaghettis , Mousseline de potiron,Banane,
+  12:54:38,9R6Y,Rillette poisson,Filet de poulet , Spaghettis , Mousseline de potiron,Crème praliné,
+  12:54:39,4F9D,Salade de pommes de terre,Poisson pané , Spaghettis,,Crème praliné,
+  12:55:38,7K6K,Champignons,Roti de légumes au tofu , Spaghettis,,Yaourt nature Bio , Banane
+  12:55:40,800N,Pas d'entrée,Filet de poulet , Spaghettis , Mousseline de potiron,Yaourt nature Bio,
+  12:56:32,3W7U,Pas d'entrée,Poisson pané , Spaghettis , Mousseline de potiron,Yaourt nature Bio , Pomme
+  12:57:25,4J8L,Pas d'entrée,Kebab , Frites,,Pas de dessert,
+  12:58:01,0I7G,Pas d'entrée,Roti de légumes au tofu , Spaghettis,,Roquefort , Crème praliné
+  12:58:03,2R9X,Chou blanc,Roti de légumes au tofu , Spaghettis,,Cantal AOP , Banane
+  12:58:27,1U7O,Pas d'entrée,Filet de poulet , Spaghettis , Mousseline de potiron,Crème praliné , Pomme 
+  12:58:45,3F4Z,Pâté,Roti de légumes au tofu , Spaghettis,,Yaourt nature Bio ,
+  12:59:05,4C0V,Pas d'entrée,Roti de légumes au tofu , Spaghettis,,Banane,
+  12:59:20,0X7C,Pas d'entrée,Poisson pané , Spaghettis , Mousseline de potiron,Yaourt nature Bio , Crème praliné
+  12:59:28,3R3M,Pas d'entrée,Poisson pané , Spaghettis , Mousseline de potiron,Banane ,
+  12:59:45,3M6S,Pas d'entrée,Poisson pané  , Mousseline de potiron,,Roquefort ,
   13:00:06,2Z9A,Mini sandwich,Filet de poulet , Spaghettis , Mousseline de potiron,Kiwi ,
   13:00:08,9A09,Champignons,Filet de poulet , Spaghettis , Mousseline de potiron,Kiwi,
-  13:00:29,0A8B,Pas d'entrÃ©e,Filet de poulet , Spaghettis , Mousseline de potiron,Yaourt nature Bio ,
-  13:01:11,3L2B,Pas d'entrÃ©e,Kebab , Frites,,Pas de dessert,
-  13:01:17,2U2X,Salade de riz,Filet de poulet,,,CrÃ¨me pralinÃ© ,
-  13:01:17,3T0P,Pas d'entrÃ©e,Roti de lÃ©gumes au tofu , Spaghettis,,Pomme ,
-  13:01:34,1I1F,Pas d'entrÃ©e,Kebab , Frites,,Pas de dessert,
+  13:00:29,0A8B,Pas d'entrée,Filet de poulet , Spaghettis , Mousseline de potiron,Yaourt nature Bio ,
+  13:01:11,3L2B,Pas d'entrée,Kebab , Frites,,Pas de dessert,
+  13:01:17,2U2X,Salade de riz,Filet de poulet,,,Crème praliné ,
+  13:01:17,3T0P,Pas d'entrée,Roti de légumes au tofu , Spaghettis,,Pomme ,
+  13:01:34,1I1F,Pas d'entrée,Kebab , Frites,,Pas de dessert,
   13:02:09,8A4O,Betterave,Filet de poulet , Spaghettis,,Orange , Pomme
-  13:02:18,2Y1M,Betterave,Poisson panÃ© , Spaghettis,,Yaourt nature Bio , Compote
-  13:03:01,8D5S,Pas d'entrÃ©e,Filet de poulet , Spaghettis , Mousseline de potiron,Banane , Pomme
-  13:03:17,4W5E,Champignons,Poisson panÃ© , Spaghettis , Mousseline de potiron,Compote ,
+  13:02:18,2Y1M,Betterave,Poisson pané , Spaghettis,,Yaourt nature Bio , Compote
+  13:03:01,8D5S,Pas d'entrée,Filet de poulet , Spaghettis , Mousseline de potiron,Banane , Pomme
+  13:03:17,4W5E,Champignons,Poisson pané , Spaghettis , Mousseline de potiron,Compote ,
   13:03:38,OW3D,Chou blanc,Filet de poulet , Spaghettis , Mousseline de potiron,Compote,
-  13:04:09,4U9D,Pas d'entrÃ©e,Poisson panÃ© , Spaghettis , Mousseline de potiron,Compote ,
-  13:04:17,7E4C,Chou blanc,Filet de poulet , Spaghettis,,CrÃ¨me pralinÃ© ,
+  13:04:09,4U9D,Pas d'entrée,Poisson pané , Spaghettis , Mousseline de potiron,Compote ,
+  13:04:17,7E4C,Chou blanc,Filet de poulet , Spaghettis,,Crème praliné ,
   13:04:30,5W6M,Champignons,Kebab , Frites,,Roquefort,
-  13:04:37,7W5Y,Champignons,Poisson panÃ© , Spaghettis,,Yaourt nature Bio,
-  13:04:48,OI5C,Pas d'entrÃ©e,Poisson panÃ© , Spaghettis , Mousseline de potiron,Orange ,
-  13:05:03,2D7O,Rillette poisson,Poisson panÃ© , Spaghettis , Mousseline de potiron,Yaourt nature Bio , Compote
+  13:04:37,7W5Y,Champignons,Poisson pané , Spaghettis,,Yaourt nature Bio,
+  13:04:48,OI5C,Pas d'entrée,Poisson pané , Spaghettis , Mousseline de potiron,Orange ,
+  13:05:03,2D7O,Rillette poisson,Poisson pané , Spaghettis , Mousseline de potiron,Yaourt nature Bio , Compote
   13:05:14,8J2L,Champignons,Filet de poulet , Spaghettis , Mousseline de potiron,Roquefort,
-  13:05:35,1L4G,Pas d'entrÃ©e,Poisson panÃ© , Spaghettis,,Pomme ,
-  13:05:41,1M2Q,Pas d'entrÃ©e,Kebab , Frites,,Yaourt nature Bio,
-  13:05:42,254Q,Pas d'entrÃ©e,Kebab , Salade,,Yaourt nature Bio,
+  13:05:35,1L4G,Pas d'entrée,Poisson pané , Spaghettis,,Pomme ,
+  13:05:41,1M2Q,Pas d'entrée,Kebab , Frites,,Yaourt nature Bio,
+  13:05:42,254Q,Pas d'entrée,Kebab , Salade,,Yaourt nature Bio,

@@ -1,132 +1,132 @@
-;Horodateur;NumÃ©ro de formulaire ;PLAT_1;PLAT_2;PLAT_3;ENTREE_1;ENTREE_2;DESSERT_1;DESSERT_2;DESSERT_3
-0; 12:30:48  ;6P4Y;torsades;escalopeviennoise;;pasdentrÃ©e;;yaourtauxfruits;banane;
-1; 12:32:01  ;2H8Z;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;chouxblancÃ lajaponaise;;Å“ufÃ laneige;;
-2; 12:32:45  ;8M4T;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;champignons;faissellenature;;
-3; 12:32:51  ;3G0E;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;saladelentilles;;Å“ufÃ laneige;;
-4; 12:33:28  ;8K6E ;torsades;poelÃ©ebrocolis;escalopeviennoise;pasdentrÃ©e;;yaourtauxfruits;banane;
-5; 12:33:34  ;2O6T;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;yaourtnaturesucrÃ©;Å“ufÃ laneige;
-6; 12:34:07  ;1N8N;boeufbourguignon;torsades;poelÃ©ebrocolis;champignons;;fromageblancfruitsrouges;banane;
-7; 12:34:09  ;5P2D;boeufbourguignon;torsades;;carottesrÃ¢pÃ©es;;yaourtauxfruits;banane;
-8; 12:34:30  ;6R0N;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;yaourtauxfruits;pommegolden;
-9; 12:34:54  ;5U6D;boeufbourguignon;torsades;;champignons;;yaourtauxfruits;;
-10; 12:34:58  ;5G2Q;kebab;frites;;pasdentrÃ©e;;pasdedessert;;
-11; 12:35:18  ;1T8V;kebab;frites;;pasdentrÃ©e;;pasdedessert;;
-12; 12:35:25  ;8K8L;boeufbourguignon;torsades;poelÃ©ebrocolis;carottesrÃ¢pÃ©es;;yaourtnaturesucrÃ©;pommegolden;
-13; 12:35:48  ;5V7A;boeufbourguignon;torsades;;oeufmimosa;;yaourtauxfruits;;
-14; 12:36:01  ;3L6Q;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;saladepates;;banane;;
-15; 12:36:17  ;0U9Y;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;oeufmimosa;;fromageblancfruitsrouges;flancchocolat;
-16; 12:37:04  ;5B4T;boeufbourguignon;torsades;;pasdentrÃ©e;;fromageblancfruitsrouges;pommegolden;
-17; 12:38:50  ;4H1P;boeufbourguignon;torsades;poelÃ©ebrocolis;oeufmimosa;;fromageblancfruitsrouges;pommegolden;
-18; 12:39:06  ;0B60;kebab;frites;;pasdentrÃ©e;;pasdedessert;;
-19; 12:39:32  ;2Y1W;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;oeufmimosa;;mimolette;flancchocolat;
-20; 12:39:36  ;1J5T;feuilletÃ©saumonoseille;torsades;ratatouille;oeufmimosa;;fromageblancfruitsrouges;banane;
-21; 12:40:01  ;8O3V;risottocourgettes;;;oeufmimosa;;banane;;
-22; 12:40:24  ;1B2S;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;fromageblancfruitsrouges;banane;
-23; 12:40:24  ;0F9P;pizzaraclette;;;oeufmimosa;;yaourtauxfruits;flancchocolat;banane
-24; 12:40:46  ;2A1P;boeufbourguignon;torsades;;pasdentrÃ©e;;yaourtauxfruits;fromageblancfruitsrouges;banane
-25; 12:413:05  ;4U8Q;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;mimolette;fromageblancfruitsrouges;flancchocolat
-26; 12:413:14  ;7D4K;boeufbourguignon;torsades;;oeufmimosa;;faissellenature;banane;
-27; 12:413:34  ;8U4I;boeufbourguignon;torsades;;oeufmimosa;;yaourtauxfruits;banane;
-28; 12:42:03  ;0B2M;boeufbourguignon;torsades;poelÃ©ebrocolis;oeufmimosa;;yaourtnaturesucrÃ©;;
-29; 12:42:55  ;2M7S;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;yaourtauxfruits;banane;
-30; 12:43:22  ;3K7S;kebab;frites;;artichauts;;yaourtauxfruits;banane;
-31; 12:43:29  ;8N1H;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;oeufmimosa;;fromageblancfruitsrouges;flancchocolat;
-32; 12:43:49  ;8P9D;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;saladepates;;banane;;
-33; 12:44:08  ;4D0S;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;saladepates;;yaourtauxfruits;banane;
-34; 12:45:10  ;8N9Q;kebab;frites;;pasdentrÃ©e;;flancchocolat;;
-35; 12:45:34  ;1G6O;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;oeufmimosa;fromageblancfruitsrouges;;
-36; 12:45:54  ;7Z3H;boeufbourguignon;torsades;;pasdentrÃ©e;;mimolette;fromageblancfruitsrouges;
-37; 12:46:04  ;5Y5L;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;yaourtauxfruits;pommegolden;
-38; 12:46:19  ;3T0E;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;yaourtauxfruits;pommegolden;
-39; 12:46:52  ;0C8K;boeufbourguignon;torsades;;pasdentrÃ©e;;yaourtauxfruits;fromageblancfruitsrouges;banane
-40; 12:47:21  ;8G8P;kebab;frites;;pasdentrÃ©e;;yaourtauxfruits;pommegolden;
-41; 12:47:44  ;5D1Z;kebab;frites;;pasdentrÃ©e;;yaourtauxfruits;;
-42; 12:48:20  ;5J3M;faux-filet;frites;;pasdentrÃ©e;;pasdedessert;;
-43; 12:48:50  ;5M7S;risottocourgettes;;;saladepates;;fromageblancfruitsrouges;;
-44; 12:49:13  ;8M0U;boeufbourguignon;torsades;poelÃ©ebrocolis;oeufmimosa;champignons;mimolette;;
-45; 12:50:07  ;5W3U;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;;mimolette;yaourtauxfruits;
-46; 12:50:34  ;9R3J;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;;fromageblancfruitsrouges;;
-47; 12:50:54  ;6C6J;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;mimolette;yaourtauxfruits;
-48; 12:513:15  ;9D50;boeufbourguignon;torsades;;champignons;;faissellenature;flancchocolat;
-49; 12:513:35  ;7J8Y;risottocourgettes;;;saladelentilles;carottesrÃ¢pÃ©es;banane;;
-50; 12:513:44  ;4O4Z;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;champignons;orange;;
-51; 12:513:54  ;3U8T;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;yaourtnaturesucrÃ©;yaourtauxfruits;banane
-52; 12:52:16  ;7H9N;boeufbourguignon;torsades;;pasdentrÃ©e;;yaourtauxfruits;fromageblancfruitsrouges;banane
-53; 12:52:36  ;5R8S;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;yaourtauxfruits;fromageblancfruitsrouges;banane
-54; 12:52:54  ;2E1F;risottocourgettes;;;carottesrÃ¢pÃ©es;;yaourtauxfruits;flancchocolat;
-55; 12:52:55  ;8G7E;pizzamerguezpoivrons;;;pasdentrÃ©e;;pasdedessert;;
-56; 12:53:22  ;9I3J;hamburger;frites;;saladepates;;orange;;
-57; 12:53:25  ;0I8Y;boeufbourguignon;torsades;poelÃ©ebrocolis;carottesrÃ¢pÃ©es;;faissellenature;flancchocolat;banane
-58; 12:53:46  ;7N3X;boeufbourguignon;torsades;poelÃ©ebrocolis;champignons;;flancchocolat;;
-59; 12:54:11  ;7I5L;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;yaourtauxfruits;kiwi;
-60; 12:54:15  ;7N7F;risottocourgettes;;;saladelentilles;;mimolette;fromageblancfruitsrouges;
-61; 12:54:35  ;7U3T;risottocourgettes;;;pasdentrÃ©e;;yaourtauxfruits;fromageblancfruitsrouges;banane
-62; 12:54:50  ;2I9R;kebab;frites;;pasdentrÃ©e;;pasdedessert;;
-63; 12:54:54  ;5D2H;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;yaourtauxfruits;;
-64; 12:55:15  ;7F8H;boeufbourguignon;torsades;;pasdentrÃ©e;;yaourtauxfruits;;
-65; 12:55:24  ;1Y9T;risottocourgettes;;;pasdentrÃ©e;;faissellenature;fromageblancfruitsrouges;pommegolden
-66; 12:55:35  ;3M5G;risottocourgettes;;;oeufmimosa;;yaourtauxfruits;pommegolden;
-67; 12:55:56  ;6H4A;risottocourgettes;;;pasdentrÃ©e;;faissellenature;fromageblancfruitsrouges;pommegolden
-68; 12:56:03  ;4K3B;risottocourgettes;;;pasdentrÃ©e;;faissellenature;fromageblancfruitsrouges;
-69; 12:56:18  ;7K6G;boeufbourguignon;torsades;;pasdentrÃ©e;;yaourtauxfruits;;
-70; 12:56:34  ;0A2A;boeufbourguignon;torsades;;pasdentrÃ©e;;yaourtauxfruits;;
-71; 12:57:00  ;4L1N;boeufbourguignon;torsades;;oeufmimosa;;yaourtnaturesucrÃ©;;
-72; 12:57:06  ;7E6C;boeufbourguignon;torsades;;salami;champignons;yaourtauxfruits;;
-73; 12:57:19  ;2G0T;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;yaourtauxfruits;fromageblancfruitsrouges;
-74; 12:57:33  ;8W7P;risottocourgettes;;;oeufmimosa;;mimolette;fromageblancfruitsrouges;
-75; 12:57:39  ;0S7C;feuilletÃ©saumonoseille;torsades;;oeufmimosa;;mimolette;;
-76; 12:57:54  ;8H6H;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;yaourtauxfruits;;
-77; 12:58:36  ;0P2F;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;yaourtauxfruits;;
-78; 12:58:41  ;1J4B;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;yaourtauxfruits;;
-79; 12:59:10  ;7F5N;kebab;frites;;pasdentrÃ©e;;pasdedessert;;
-80; 12:59:24  ;1N9S;risottocourgettes;;;pasdentrÃ©e;;yaourtauxfruits;fromageblancfruitsrouges;
-81; 12:59:32  ;2B3R;risottocourgettes;;;coeursdepalmiers;;mimolette;fromageblancfruitsrouges;
-82; 13:00:08  ;2A2L;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;yaourtauxfruits;;
-83; 13:013:06  ;7S9S;boeufbourguignon;torsades;;oeufmimosa;artichauts;yaourtnaturesucrÃ©;;
-84; 13:013:35  ;5C7B;risottocourgettes;;;saladelentilles;;fromageblancfruitsrouges;orange;
-85; 13:013:50  ;8M9W;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;champignons;coeursdepalmiers;yaourtauxfruits;;
-86; 13:013:59  ;5B2Z;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;fromageblancfruitsrouges;;
-87; 13:02:29  ;2G2S;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;yaourtnaturesucrÃ©;;
-88; 13:02:30  ;0O5Q;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;;yaourtauxfruits;;
-89; 13:02:43  ;4D4V;boeufbourguignon;torsades;poelÃ©ebrocolis;oeufmimosa;salami;orange;;
-90; 13:02:52  ;9J6M;boeufbourguignon;torsades;poelÃ©ebrocolis;oeufmimosa;;fromageblancfruitsrouges;;
-91; 13:03:10  ;4T1L;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;yaourtauxfruits;fromageblancfruitsrouges;
-92; 13:03:15  ;5Y6U;risottocourgettes;;;tomates;;yaourtauxfruits;kiwi;
-93; 13:03:29  ;3W6I;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;faissellenature;fromageblancfruitsrouges;
-94; 13:04:06  ;1W8I;boeufbourguignon;torsades;;oeufmimosa;;yaourtauxfruits;banane;
-95; 13:04:26  ;8U4S;pizzaraclette;;;pasdentrÃ©e;;banane;;
-96; 13:04:43  ;6L3J;risottocourgettes;;;pasdentrÃ©e;;yaourtauxfruits;fromageblancfruitsrouges;pommegolden
-97; 13:05:02  ;0G5M;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;yaourtauxfruits;fromageblancfruitsrouges;
-98; 13:05:12  ;6C9H;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;fromageblancfruitsrouges;pommegolden;
-99; 13:05:43  ;5I3E;boeufbourguignon;torsades;poelÃ©ebrocolis;artichauts;;yaourtauxfruits;;
-100; 13:05:56  ;7U7X;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;chouxblancÃ lajaponaise;;fromageblancfruitsrouges;kiwi;
-101; 13:06:08  ;2H8Q;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;;fromageblancfruitsrouges;pommegolden;
-102; 13:06:32  ;5T1N;boeufbourguignon;torsades;poelÃ©ebrocolis;salami;;faissellenature;fromageblancfruitsrouges;
-103; 13:08:14  ;9P8X;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;;fromageblancfruitsrouges;pommegolden;
-104; 13:08:22  ;1M5C;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;saladelentilles;;yaourtauxfruits;;
-105; 13:08:33  ;9A6W;pizzamerguezpoivrons;;;pasdentrÃ©e;;pasdedessert;;
-106; 13:08:58  ;1T2N;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;champignons;;faissellenature;pommegolden;
-107; 13:09:04  ;9Y6D;risottocourgettes;;;pasdentrÃ©e;;fromageblancfruitsrouges;orange;
-108; 13:09:21  ;2W9X;boeufbourguignon;torsades;poelÃ©ebrocolis;chouxblancÃ lajaponaise;artichauts;fromageblancfruitsrouges;;
-109; 13:09:38  ;6W8Z;risottocourgettes;;;saladelentilles;;fromageblancfruitsrouges;orange;
-110; 13:09:50  ;2E8L;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;chouxblancÃ lajaponaise;;faissellenature;;
-111; 13:113:24  ;2U4F;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;;fromageblancfruitsrouges;orange;
-112; 13:113:45  ;0S0Q;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;;fromageblancfruitsrouges;pommegolden;
-113; 13:12:05  ;0R4C;boeufbourguignon;torsades;poelÃ©ebrocolis;saladelentilles;;yaourtnaturesucrÃ©;fromageblancfruitsrouges;
-114; 13:12:31  ;6O4Y;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;yaourtnaturesucrÃ©;pommegolden;kiwi
-115; 13:12:52  ;0A4U;boeufbourguignon;torsades;;saladelentilles;;yaourtnaturesucrÃ©;fromageblancfruitsrouges;
-116; 13:13:28  ;6U1H;boeufbourguignon;torsades;;pasdentrÃ©e;;pasdedessert;;
-117; 13:14:12  ;1L0F;risottocourgettes;;;saladelentilles;;faissellenature;;
-118; 13:14:25  ;4T9L;kebab;frites;;artichauts;;pommegolden;;
-119; 13:14:51  ;5W4J;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;faissellenature;;
-120; 13:15:23  ;1P5N;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;fromageblancfruitsrouges;;
-121; 13:15:46  ;6Z9V;feuilletÃ©saumonoseille;torsades;;pasdentrÃ©e;;fromageblancfruitsrouges;pommegolden;kiwi
-122; 13:16:11  ;2G3P;boeufbourguignon;torsades;;pasdentrÃ©e;;fromageblancfruitsrouges;;
-123; 13:16:22  ;1Y1C;boeufbourguignon;torsades;;pasdentrÃ©e;;yaourtnaturesucrÃ©;fromageblancfruitsrouges;
-124; 13:16:47  ;0R7V;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;chouxblancÃ lajaponaise;;faissellenature;fromageblancfruitsrouges;
-125; 13:16:57  ;7P8D;boeufbourguignon;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;faissellenature;pommegolden;
-126; 13:17:12  ;1T9W;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;fromageblancfruitsrouges;pommegolden;
-127; 13:17:30  ;1W6X;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;fromageblancfruitsrouges;;
-128; 13:17:39  ;5O0Y;boeufbourguignon;torsades;;chouxblancÃ lajaponaise;;fromageblancfruitsrouges;;
-129; 13:18:29  ;3R5P;boeufbourguignon;torsades;poelÃ©ebrocolis;tomates;;fromageblancfruitsrouges;;
-130; 13:18:57  ;8K4B;feuilletÃ©saumonoseille;torsades;poelÃ©ebrocolis;pasdentrÃ©e;;fromageblancfruitsrouges;pommegolden;
+Horodateur,Numéro de formulaire ,ENTREE_1,ENTREE_2,PLAT_1,PLAT_2,PLAT_3,DESSERT_1,DESSERT_2
+ 12:30:48  ,6P4Y,Pas d'entrée,,Torsades , Escalope viennoise,,Yaourt aux fruits , Banane
+ 12:32:01  ,2H8Z,Choux blanc à la japonaise ,,Feuilleté Saumon oseille , Torsades , Poelée Brocolis ,Œuf à la neige ,
+ 12:32:45  ,8M4T,Salade lentilles , Champignons,Boeuf bourguignon , Torsades , Poelée brocolis ,Faisselle nature,
+ 12:32:51  ,3G0E,Salade lentilles,,Feuilleté Saumon oseille , Torsades , Poelée Brocolis ,Œuf à la neige,
+ 12:33:28  ,8K6E ,Pas d'entrée,,Torsades , Poelée brocolis , Escalope viennoise,Yaourt aux fruits , Banane
+ 12:33:34  ,2O6T,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Yaourt nature sucré , Œuf à la neige
+ 12:34:07  ,1N8N,Champignons,,Boeuf  bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Banane
+ 12:34:09  ,5P2D,Carottes râpées,,Boeuf  bourguignon , Torsades,,Yaourt aux fruits , Banane
+ 12:34:30  ,6R0N,Pas d'entrée,,Boeuf  bourguignon , Torsades , Poelée brocolis,Yaourt aux fruits , Pomme golden
+ 12:34:54  ,5U6D,Champignons,,Boeuf  bourguignon , Torsades,,Yaourt aux fruits,
+ 12:34:58  ,5G2Q,Pas d'entrée,,Kebab , Frites,,Pas de dessert,
+ 12:35:18  ,1T8V,Pas d'entrée,,Kebab , Frites,,Pas de dessert,
+ 12:35:25  ,8K8L,Carottes râpées,,Boeuf  bourguignon , Torsades , Poelée brocolis,Yaourt nature sucré , Pomme golden
+ 12:35:48  ,5V7A,Oeuf mimosa,,Boeuf  bourguignon , Torsades,,Yaourt aux fruits,
+ 12:36:01  ,3L6Q,Salade pates,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Banane,
+ 12:36:17  ,0U9Y,Oeuf mimosa,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Flanc chocolat
+ 12:37:04  ,5B4T,Pas d'entrée,,Boeuf  bourguignon , Torsades,,Fromage blanc fruits rouges , Pomme golden
+ 12:38:50  ,4H1P,Oeuf mimosa,,Boeuf  bourguignon , Torsades ,Poelée brocolis ,Fromage blanc fruits rouges , Pomme golden
+ 12:39:06  ,0B60,Pas d'entrée,,Kebab , Frites,,Pas de dessert,
+ 12:39:32  ,2Y1W,Oeuf mimosa,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Mimolette , Flanc chocolat
+ 12:39:36  ,1J5T,Oeuf mimosa,,Feuilleté Saumon oseille , Torsades , Ratatouille,Fromage blanc fruits rouges , Banane
+ 12:40:01  ,8O3V,Oeuf mimosa,,Risotto courgettes,,,Banane,
+ 12:40:24  ,1B2S,Pas d'entrée,,Boeuf bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Banane
+ 12:40:24  ,0F9P,Oeuf mimosa,,Pizza raclette,,,Yaourt aux fruits , Flanc chocolat + Banane
+ 12:40:46  ,2A1P,Pas d'entrée,,Boeuf  bourguignon , Torsades,,Yaourt aux fruits , Fromage blanc fruits rouges + Banane
+ 12:413:05  ,4U8Q,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Mimolette , Fromage blanc fruits rouges + Flanc chocolat
+ 12:413:14  ,7D4K,Oeuf mimosa,,Boeuf  bourguignon , Torsades,,Faisselle nature , Banane
+ 12:413:34  ,8U4I,Oeuf mimosa,,Boeuf  bourguignon , Torsades,,Yaourt aux fruits , Banane
+ 12:42:03  ,0B2M,Oeuf mimosa,,Boeuf  bourguignon , Torsades , Poelée brocolis,Yaourt nature sucré,
+ 12:42:55  ,2M7S,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Yaourt aux fruits , Banane
+ 12:43:22  ,3K7S,Artichauts,,Kebab , Frites,,Yaourt aux fruits , Banane
+ 12:43:29  ,8N1H,Oeuf mimosa,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Flanc chocolat
+ 12:43:49  ,8P9D,Salade pates,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Banane,
+ 12:44:08  ,4D0S,Salade pates,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Yaourt aux fruits , Banane
+ 12:45:10  ,8N9Q,Pas d'entrée,,Kebab , Frites,,Flanc chocolat,
+ 12:45:34  ,1G6O,Salade lentilles , Oeuf mimosa,Boeuf bourguignon , Torsades , Poelée brocolis ,Fromage blanc fruits rouges,
+ 12:45:54  ,7Z3H,Pas d'entrée,,Boeuf  bourguignon , Torsades,,Mimolette , Fromage blanc fruits rouges
+ 12:46:04  ,5Y5L,Pas d'entrée,,Boeuf  bourguignon , Torsades , Poelée brocolis ,Yaourt aux fruits , Pomme golden
+ 12:46:19  ,3T0E,Pas d'entrée,,Boeuf  bourguignon , Torsades , Poelée brocolis ,Yaourt aux fruits , Pomme golden
+ 12:46:52  ,0C8K,Pas d'entrée,,Boeuf bourguignon , Torsades,,Yaourt aux fruits , Fromage blanc fruits rouges + Banane
+ 12:47:21  ,8G8P,Pas d'entrée,,Kebab , Frites,,Yaourt aux fruits , Pomme golden
+ 12:47:44  ,5D1Z,Pas d'entrée,,Kebab , Frites,,Yaourt aux fruits,
+ 12:48:20  ,5J3M,Pas d'entrée,,Faux-filet , Frites,,Pas de dessert,
+ 12:48:50  ,5M7S,Salade pates,,Risotto courgettes,,,Fromage blanc fruits rouges,
+ 12:49:13  ,8M0U,Oeuf mimosa , Champignons,Boeuf bourguignon , Torsades , Poelée brocolis,Mimolette,
+ 12:50:07  ,5W3U,Salade lentilles,,Boeuf bourguignon , Torsades , Poelée brocolis,Mimolette , Yaourt aux fruits
+ 12:50:34  ,9R3J,Salade lentilles,,Boeuf bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges,
+ 12:50:54  ,6C6J,Pas d'entrée,,Boeuf bourguignon , Torsades , Poelée brocolis,Mimolette , Yaourt aux fruits
+ 12:513:15  ,9D50,Champignons,,Boeuf bourguignon , Torsades,,Faisselle nature Flanc chocolat,
+ 12:513:35  ,7J8Y,Salade lentilles , Carottes râpées,Risotto courgettes,,,Banane,
+ 12:513:44  ,4O4Z,Salade lentilles , Champignons,Boeuf bourguignon , Torsades , Poelée brocolis,Orange,
+ 12:513:54  ,3U8T,Pas d'entrée,,Boeuf bourguignon , Torsades , Poelée brocolis,Yaourt nature sucré Yaourt aux fruits , Banane
+ 12:52:16  ,7H9N,Pas d'entrée,,Boeuf bourguignon , Torsades,,Yaourt aux fruits , Fromage blanc fruits rouges + Banane
+ 12:52:36  ,5R8S,Pas d'entrée,,Boeuf bourguignon , Torsades , Poelée brocolis,Yaourt aux fruits , Fromage blanc fruits rouges + Banane
+ 12:52:54  ,2E1F,Carottes râpées,,Risotto courgettes,,,Yaourt aux fruits , Flanc chocolat
+ 12:52:55  ,8G7E,Pas d'entrée,,Pizza merguez poivrons,,,Pas de dessert,
+ 12:53:22  ,9I3J,Salade pates,,Hamburger , Frites,,Orange,
+ 12:53:25  ,0I8Y,Carottes râpées,,Boeuf bourguignon , Torsades , Poelée brocolis,Faisselle nature , Flanc chocolat + Banane
+ 12:53:46  ,7N3X,Champignons,,Boeuf bourguignon , Torsades , Poelée brocolis,Flanc chocolat,
+ 12:54:11  ,7I5L,Pas d'entrée,,Boeuf bourguignon , Torsades , Poelée brocolis,Yaourt aux fruits , Kiwi
+ 12:54:15  ,7N7F,Salade lentilles,,Risotto courgettes,,,Mimolette , Fromage blanc fruits rouges
+ 12:54:35  ,7U3T,Pas d'entrée,,Risotto courgettes,,,Yaourt aux fruits , Fromage blanc fruits rouges + Banane
+ 12:54:50  ,2I9R,Pas d'entrée,,Kebab , Frites,,Pas de dessert,
+ 12:54:54  ,5D2H,Pas d'entrée,,Boeuf bourguignon , Torsades , Poelée brocolis,Yaourt aux fruits,
+ 12:55:15  ,7F8H,Pas d'entrée,,Boeuf bourguignon , Torsades,,Yaourt aux fruits,
+ 12:55:24  ,1Y9T,Pas d'entrée,,Risotto courgettes,,,Faisselle nature , Fromage blanc fruits rouges + Pomme golden
+ 12:55:35  ,3M5G,Oeuf mimosa,,Risotto courgettes,,,Yaourt aux fruits , Pomme golden
+ 12:55:56  ,6H4A,Pas d'entrée,,Risotto courgettes,,,Faisselle nature , Fromage blanc fruits rouges + Pomme golden
+ 12:56:03  ,4K3B,Pas d'entrée,,Risotto courgettes,,,Faisselle nature , Fromage blanc fruits rouges
+ 12:56:18  ,7K6G,Pas d'entrée,,Boeuf bourguignon , Torsades,,Yaourt aux fruits,
+ 12:56:34  ,0A2A,Pas d'entrée,,Boeuf bourguignon , Torsades,,Yaourt aux fruits,
+ 12:57:00  ,4L1N,Oeuf mimosa,,Boeuf bourguignon , Torsades,,Yaourt nature sucré,
+ 12:57:06  ,7E6C,Salami , Champignons,Boeuf bourguignon , Torsades,,Yaourt aux fruits,
+ 12:57:19  ,2G0T,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Yaourt aux fruits , Fromage blanc fruits rouges
+ 12:57:33  ,8W7P,Oeuf mimosa,,Risotto courgettes,,,Mimolette , Fromage blanc fruits rouges
+ 12:57:39  ,0S7C,Oeuf mimosa,,Feuilleté Saumon oseille , Torsades,,Mimolette,
+ 12:57:54  ,8H6H,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Yaourt aux fruits,
+ 12:58:36  ,0P2F,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Yaourt aux fruits ,
+ 12:58:41  ,1J4B,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Yaourt aux fruits,
+ 12:59:10  ,7F5N,Pas d'entrée,,Kebab , Frites,,Pas de dessert,
+ 12:59:24  ,1N9S,Pas d'entrée,,Risotto courgettes,,,Yaourt aux fruits , Fromage blanc fruits rouges
+ 12:59:32  ,2B3R,Coeurs de palmiers,,Risotto courgettes,,,Mimolette , Fromage blanc fruits rouges
+ 13:00:08  ,2A2L,Pas d'entrée,,Boeuf bourguignon , Torsades , Poelée brocolis,Yaourt aux fruits,
+ 13:013:06  ,7S9S,Oeuf mimosa , Artichauts,Boeuf bourguignon , Torsades,,Yaourt nature sucré,
+ 13:013:35  ,5C7B,Salade lentilles,,Risotto courgettes,,,Fromage blanc fruits rouges , Orange
+ 13:013:50  ,8M9W,Champignons , Coeurs de palmiers,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Yaourt aux fruits,
+ 13:013:59  ,5B2Z,Pas d'entrée,,Boeuf bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges,
+ 13:02:29  ,2G2S,Pas d'entrée,,Feuilleté Saumon oseille , Torsades , Poelée  brocolis,Yaourt nature sucré,
+ 13:02:30  ,0O5Q,Salade lentilles,,Boeuf bourguignon , Torsades , Poelée brocolis,Yaourt aux fruits,
+ 13:02:43  ,4D4V,Oeuf mimosa , Salami,Boeuf bourguignon , Torsades , Poelée brocolis ,Orange,
+ 13:02:52  ,9J6M,Oeuf mimosa,,Boeuf bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges,
+ 13:03:10  ,4T1L,Pas d'entrée,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Yaourt aux fruits , Fromage blanc fruits rouges
+ 13:03:15  ,5Y6U,Tomates,,Risotto courgettes,,,Yaourt aux fruits , Kiwi
+ 13:03:29  ,3W6I,Pas d'entrée,,Boeuf bourguignon , Torsades , Poelée brocolis,Faisselle nature , Fromage blanc fruits rouges
+ 13:04:06  ,1W8I,Oeuf mimosa,,Boeuf bourguignon , Torsades,,Yaourt aux fruits , Banane
+ 13:04:26  ,8U4S,Pas d'entrée,,Pizza raclette,,,Banane,
+ 13:04:43  ,6L3J,Pas d'entrée,,Risotto courgettes,,,Yaourt aux fruits , Fromage blanc fruits rouges + Pomme golden
+ 13:05:02  ,0G5M,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Yaourt aux fruits , Fromage blanc fruits rouges
+ 13:05:12  ,6C9H,Pas d'entrée,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Pomme golden
+ 13:05:43  ,5I3E,Artichauts,,Boeuf bourguignon , Torsades , Poelée brocolis,Yaourt aux fruits,
+ 13:05:56  ,7U7X,Choux blanc à la japonaise ,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Kiwi
+ 13:06:08  ,2H8Q,Salade lentilles,,Boeuf bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Pomme golden
+ 13:06:32  ,5T1N,Salami,,Boeuf bourguignon , Torsades , Poelée brocolis,Faisselle nature , Fromage blanc fruits rouges
+ 13:08:14  ,9P8X,Salade lentilles,,Boeuf bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Pomme golden
+ 13:08:22  ,1M5C,Salade lentilles,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Yaourt aux fruits,
+ 13:08:33  ,9A6W,Pas d'entrée,,Pizza merguez poivrons,,,Pas de dessert,
+ 13:08:58  ,1T2N,Champignons,,Feuilleté Saumon oseille , Torsades , Poelée brocolis ,Faisselle nature , Pomme golden
+ 13:09:04  ,9Y6D,Pas d'entrée,,Risotto courgettes,,,Fromage blanc fruits rouges , Orange
+ 13:09:21  ,2W9X,Choux blanc à la japonaise , Artichauts,Boeuf bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges,
+ 13:09:38  ,6W8Z,Salade lentilles,,Risotto courgettes,,,Fromage blanc fruits rouges , Orange
+ 13:09:50  ,2E8L,Choux blanc à la japonaise ,,Feuilleté Saumon oseille , Torsades , Poelée brocolis ,Faisselle nature,
+ 13:113:24  ,2U4F,Salade lentilles,,Boeuf bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Orange
+ 13:113:45  ,0S0Q,Salade lentilles,,Boeuf bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Pomme golden
+ 13:12:05  ,0R4C,Salade lentilles,,Boeuf bourguignon , Torsades , Poelée brocolis,Yaourt nature sucré , Fromage blanc fruits rouges
+ 13:12:31  ,6O4Y,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Yaourt nature sucré , Pomme golden + Kiwi
+ 13:12:52  ,0A4U,Salade lentilles,,Boeuf bourguignon , Torsades,,Yaourt nature sucré , Fromage blanc fruits rouges
+ 13:13:28  ,6U1H,Pas d'entrée,,Boeuf bourguignon , Torsades,,Pas de dessert,
+ 13:14:12  ,1L0F,Salade lentilles,,Risotto courgettes,,,Faisselle nature,
+ 13:14:25  ,4T9L,Artichauts,,Kebab , Frites,,Pomme golden,
+ 13:14:51  ,5W4J,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Faisselle nature,
+ 13:15:23  ,1P5N,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Fromage blanc fruits rouges,
+ 13:15:46  ,6Z9V,Pas d'entrée,,Feuilleté Saumon oseille , Torsades,,Fromage blanc fruits rouges , Pomme golden + Kiwi
+ 13:16:11  ,2G3P,Pas d'entrée,,Boeuf bourguignon , Torsades,,Fromage blanc fruits rouges,
+ 13:16:22  ,1Y1C,Pas d'entrée,,Boeuf bourguignon , Torsades,,Yaourt nature sucré , Fromage blanc fruits rouges
+ 13:16:47  ,0R7V,Choux blanc à la japonaise ,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Faisselle nature , Fromage blanc fruits rouges
+ 13:16:57  ,7P8D,Pas d'entrée,,Boeuf bourguignon , Torsades , Poelée brocolis,Faisselle nature , Pomme golden
+ 13:17:12  ,1T9W,Pas d'entrée,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Pomme golden
+ 13:17:30  ,1W6X,Pas d'entrée,,Feuilleté Saumon oseille , Torsades , Poelée brocolis ,Fromage blanc fruits rouges,
+ 13:17:39  ,5O0Y,Choux blanc à la japonaise ,,Boeuf bourguignon , Torsades,,Fromage blanc fruits rouges,
+ 13:18:29  ,3R5P,Tomates,,Boeuf bourguignon , Torsades , Poelée brocolis,Fromage blanc fruits rouges,
+ 13:18:57  ,8K4B,Pas d'entrée,,Feuilleté Saumon oseille , Torsades , Poelée brocolis,Fromage blanc fruits rouges , Pomme golden
