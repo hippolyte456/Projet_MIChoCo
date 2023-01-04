@@ -1,0 +1,102 @@
+---
+title: "Stat_de_base"
+output: html_document
+date: "2023-01-04"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Début des stats sur R Projet Michoco
+
+```{r library, include=FALSE}
+library(readr)
+```
+
+
+## Chargement des données
+
+```{r}
+Choix_21Oct <- read_delim("Projet_MIChoCo/data_CROUS/data_processed/Resultats_choix_21_octobre_processed.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE, show_col_types = FALSE)
+```
+
+## One Hot encoding 
+
+```{r OHE_plats}
+nom_plats1 <- levels(factor(PLAT_1))
+
+nom_plats2 <- levels(factor(PLAT_2))[which(!(levels(factor(PLAT_2)) %in% nom_plats1))]
+
+nom_plats <- c(nom_plats1, nom_plats2)
+
+nom_plats3 <- levels(factor(PLAT_3))[which(!(levels(factor(PLAT_3)) %in% nom_plats))]
+
+nom_plats <- c(nom_plats, nom_plats3)
+
+rm(nom_plats1);rm(nom_plats2);rm(nom_plats3)
+```
+
+On vérifie que les noms des entrées dans Plat 2 ne sont pas déjà dans les noms des plats 1.
+
+```{r OHE_entrees}
+nom_entree1 <- levels(factor(ENTREE_1))
+
+nom_entree2 <- levels(factor(ENTREE_2))[which(!(levels(factor(ENTREE_2)) %in% nom_entree1))]
+
+nom_entrees <- c(nom_entree1, nom_entree2)
+
+rm(nom_entree1); rm(nom_entree2)
+```
+
+```{r OHE_desserts}
+nom_desserts1 <- levels(factor(DESSERT_1))
+
+nom_desserts2 <- levels(factor(DESSERT_2))[which(!(levels(factor(DESSERT_2)) %in% nom_desserts1))]
+
+nom_desserts <- c(nom_desserts1, nom_desserts2)
+
+nom_desserts3 <- levels(factor(DESSERT_3))[which(!(levels(factor(DESSERT_3)) %in% nom_desserts))]
+
+nom_desserts <- c(nom_desserts, nom_desserts3)
+
+rm(nom_desserts1);rm(nom_desserts2);rm(nom_desserts3)
+```
+
+
+```{r OHE_table}
+OHE_choix_21Oct <- Choix_21Oct[,1:3]
+```
+
+```{r OHE_table_plats}
+for(plat in nom_plats){
+  tot_plats <- as.integer(PLAT_1 == plat | PLAT_2 == plat | PLAT_3 == plat)
+  tot_plats[is.na(tot_plats)] <- 0
+  OHE_choix_21Oct[plat] <- tot_plats
+}
+```
+
+```{r OHE_table_entrees}
+for(plat in nom_entrees){
+  tot_entrees <- as.integer(ENTREE_1 == plat | ENTREE_2 == plat)
+  tot_entrees[is.na(tot_entrees)] <- 0
+  OHE_choix_21Oct[plat] <- tot_entrees
+}
+```
+
+```{r OHE_table_desserts}
+for(plat in nom_desserts){
+  tot_desserts <- as.integer(DESSERT_1 == plat | DESSERT_2 == plat | DESSERT_3 == plat)
+  tot_desserts[is.na(tot_desserts)] <- 0
+  OHE_choix_21Oct[plat] <- tot_desserts
+}
+```
+
+## Sauvegarde
+
+```{r}
+write.csv(OHE_choix_21Oct, file="OneHotEncoding_choix_21_oct_processed.csv")
+```
+
+
+
