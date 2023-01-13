@@ -1,171 +1,171 @@
-Unnamed: 0,Horodateur,Numéro de formulaire ,ENTREE_1,ENTREE_2,PLAT_1,PLAT_2,PLAT_3,DESSERT_1,DESSERT_2
-0, 12:35:00,9D6N,minisandwich,,cordonbleu,riz,brocolis,pommegala,
-1, 12:36:38,5A5R,saladederiz,,cordonbleu,riz,brocolis,tarteauxfruits,
-2, 12:37:52,8S7L,pasdentrée,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,banane
-3, 12:38:09,8N6P,saladederiz,,cordonbleu,riz,brocolis,parisbrest,
-4, 12:39:08,1C5X,saladederiz,,rotilégumestofu,riz,brocolis,tarteauxfruits,
-5, 12:39:19,0N3Z,pasdentrée,,rotilégumestofu,riz,brocolis,poire,
-6, 12:40:10,7B2H,saladedechou,,cordonbleu,riz,brocolis,tarteauxfruits,
-7, 12:40:49,9Q5A,pasdentrée,,pavédepoissonbordelaise,riz,,fromageblancnature,parisbrest
-8, 12:41:09,3E1Q,saladederiz,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,
-9, 12:41:17,3N5Y,betterave,,cordonbleu,riz,brocolis,yaourtauxfruitsenmorceaux,crèmepraliné
-10, 12:41:47,5LOV,saladederiz,,pavédepoissonbordelaise,riz,brocolis,parisbrest,
-11, 12:42:08,2Q8X,pasdentrée,,pizzakebab,frites,salade,parisbrest,orange+cocktailfruitsexotiques
-12, 12:43:11,2L4N,pasdentrée,,cordonbleu,riz,brocolis,fromageblancnature,tarteauxfruits
-13, 12:43:19,0Y1G,pasdentrée,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest
-14, 12:43:46,5C2M,betterave,,cordonbleu,riz,brocolis,pruneauxausirop,yaourtnature
-15, 12:43:57,1J6P,pasdentrée,,cordonbleu,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest
-16, 12:44:07,2K9I,pasdentrée,,cordonbleu,riz,brocolis,emmental,parisbrest
-17, 12:44:30,9W30,pasdentrée,,cordonbleu,riz,,parisbrest,orange
-18, 12:44:53,6T3Q,pasdentrée,,cordonbleu,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest+pommegala
-19, 12:45:07,2O7S,betterave,,pavédepoissonbordelaise,riz,brocolis,parisbrest,pruneauxausirop
-20, 12:45:35,5U3X,pasdentrée,,pavédepoissonbordelaise,riz,brocolis,emmental,yaourtauxfruitsenmorceaux
-21, 12:46:41,5G9R,pasdentrée,,filetdepoulet,riz,brocolis,yaourtauxfruitsenmorceaux,poire
-22, 12:47:09,0M0L,pasdentrée,,cordonbleu,riz,brocolis,emmental,
-23, 12:47:39,0E2X,saladederiz,,cordonbleu,riz,brocolis,parisbrest,
-24, 12:48:20,0S4Y,pasdentrée,,cordonbleu,riz,brocolis,bleudauvergneaop,parisbrest
-25, 12:49:01,2T3H,artichauts,,cordonbleu,riz,brocolis,yaourtauxfruitsenmorceaux,
-26, 12:50:10,6M1O,pâté,,pavédepoissonbordelaise,riz,brocolis,emmental,parisbrest
-27, 12:51:10,5Q8O,betterave,,boulettesviande,riz,brocolis,parisbrest,
-28, 12:51:47,8X6E,artichauts,,cordonbleu,riz,brocolis,parisbrest,liégeois
-29, 12:52:09,5S7A,pasdentrée,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest+pruneauxausirop
-30, 12:52:42,6E4S,pasdentrée,,rotilégumestofu,riz,brocolis,emmental,tarteauxfruits
-31, 12:53:03,5B3U,betterave,,rotilégumestofu,riz,brocolis,parisbrest,pommegala
-32, 12:53:16,5S4C,saladedechou,,rotilégumestofu,riz,brocolis,tarteauxfruits,
-33, 12:54:35,3K9G,pasdentrée,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest
-34, 12:55:02,6G4G,pâté,,filetdepoulet,riz,brocolis,parisbrest,
-35, 12:55:16,7F1D,pasdentrée,,cordonbleu,riz,brocolis,emmental,tarteauxfruits
-36, 12:55:41,5F9Z,pasdentrée,,filetdepoulet,riz,brocolis,parisbrest,yaourtnature
-37, 12:56:02,,pasdentrée,,boulettesviande,riz,brocolis,parisbrest,
-38, 12:56:15,7R3E,pasdentrée,,pizzakebab,frites,salade,pasdedessert,
-39, 12:56:29,6C3U,pasdentrée,,boulettesviande,riz,brocolis,parisbrest,
-40, 12:56:54,8S7P,saladederiz,,cordonbleu,riz,brocolis,parisbrest,
-41, 12:57:02,0Y5X,saladederiz,,boulettesviande,riz,brocolis,tarteauxfruits,
-42, 12:57:24,3Q5T,saladederiz,,cordonbleu,riz,brocolis,parisbrest,
-43, 12:57:31,9I2L,betterave,,rotilégumestofu,riz,,parisbrest,
-44, 12:58:08,5Q0Y,betterave,,pavédepoissonbordelaise,riz,brocolis,parisbrest,yaourtnature
-45, 12:58:21,7V9Y,pasdentrée,,pizzakebab,frites,,pasdedessert,
-46, 12:58:38,1I3P,pasdentrée,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,tarteauxfruits
-47, 12:58:49,7F0W,rillettespoisson,,boulettesviande,riz,brocolis,crèmepraliné,
-48, 12:58:52,8X0N,pasdentrée,,kebab,frites,,pasdedessert,
-49, 12:59:34,8T1Q,betterave,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest
-50, 12:59:47,OR1F,pasdentrée,,boulettesviande,riz,,parisbrest,liégeois
-51,13:00:13,1F7A,pasdentrée,,kebab,frites,,yaourtauxfruitsenmorceaux,pommegala
-52,13:00:37,7E5H,artichauts,,filetdepoulet,riz,brocolis,parisbrest,pommegala
-53,13:01:09,5Q8S,betterave,,pavédepoissonbordelaise,riz,brocolis,pommegala,poire
-54,13:01:11,1V0X,pasdentrée,,pavédepoissonbordelaise,riz,brocolis,pommegala,orange
-55,13:01:43,,betterave,,filetdepoulet,riz,brocolis,parisbrest,poire
-56,13:02:12,4P8C,betterave,,filetdepoulet,riz,brocolis,parisbrest,poire
-57,13:02:24,5L7H,saladederiz,,rotilégumestofu,riz,brocolis,parisbrest,pommegala
-58,13:02:56,9YFK,betterave,,rotilégumestofu,riz,,emmental,
-59,13:03:22,2U9G,carottesrapees,,rotilégumestofu,riz,,yaourtauxfruitsenmorceaux,
-60,13:03:37,4A4Z,pasdentrée,,rotilégumestofu,riz,brocolis,emmental,orange+tarteauxfruits
-61,13:03:44,7H7Y,pasdentrée,,filetdepoulet,riz,brocolis,parisbrest,pommegala
-62,13:04:49,3R8M,saladedepates,,rotilégumestofu,brocolis,,emmental,
-63,13:04:56,1F9Y,saladederiz,,boulettesviande,riz,brocolis,parisbrest,
-64,13:05:04,3U7V,saladederiz,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,
-65,13:05:34,8G6G,minisandwich,,rotilégumestofu,riz,brocolis,yaourtauxfruitsenmorceaux,tarteauxfruits
-66,13:05:39,6G5H,carottesrapees,,boulettesviande,riz,brocolis,emmental,
-67,13:05:52,1U6R,betterave,,rotilégumestofu,riz,,yaourtnature,
-68,13:06:19,3V4C,pasdentrée,,kebab,frites,,pasdedessert,
-69,13:06:36,3O2U,pasdentrée,,kebab,frites,,pasdedessert,
-70,13:06:52,5Z4K,pasdentrée,,pavédepoissonbordelaise,riz,brocolis,yaourtnature,liégeois
-71,13:08:09,4U3U,saladederiz,,pavédepoissonbordelaise,riz,boulettesviande,parisbrest,pruneauxausirop
-72,13:08:21,7V3K,artichauts,,pavédepoissonbordelaise,rotilégumestofu,riz,pruneauxausirop,
-73,13:09:00,0U8E,carottesrapees,,pavédepoissonbordelaise,riz,,yaourtauxfruitsenmorceaux,poire
-74,13:09:16,5R7Y,carottesrapees,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,pommegala
-75,13:09:36,4O8C,pâté,,rotilégumestofu,riz,boulettesviande,tarteauxfruits,
-76,13:10:02,1Y7U,carottesrapees,saladederiz,boulettesviande,riz,,yaourtauxfruitsenmorceaux,
-77,13:10:14,2J2X,carottesrapees,,pavédepoissonbordelaise,riz,boulettesviande,tarteauxfruits,
-78,13:10:19,7N0N,pâté,,rotilégumestofu,riz,boulettesviande,yaourtauxfruitsenmorceaux,liégeois
-79,13:10:38,8Q9F,carottesrapees,,rotilégumestofu,riz,brocolis,parisbrest,
-80,13:10:48,8G5E,betterave,,pavédepoissonbordelaise,riz,brocolis,parisbrest,
-81,13:12:22,1W3S,pasdentrée,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,tarteauxfruits
-82,13:12:29,9C8Y,pasdentrée,,pavédepoissonbordelaise,riz,boulettesviande,gâteaudesemoule,parisbrest
-83,13:12:22,1A9V,carottesrapees,,filetdepoulet,riz,brocolis,parisbrest,
-84,13:12:43,3S5G,minisandwich,,boulettesviande,riz,,parisbrest,
-85,13:12:46,4E9P,pâté,,boulettesviande,riz,brocolis,parisbrest,
-86,13:13:16,1W5H,pasdentrée,,pavédepoissonbordelaise,riz,boulettesviande,yaourtauxfruitsenmorceaux,tarteauxfruits
-87,13:14:01,3V9C,pasdentrée,,rotilégumestofu,riz,brocolis,parisbrest,
-88,13:14:26,1B0U,pasdentrée,,rotilégumestofu,riz,brocolis,bleudauvergneaop,parisbrest
-89,13:14:52,6T3K,pasdentrée,,rotilégumestofu,riz,brocolis,bleudauvergneaop,yaourtnature
-90,13:15:25,8W1B,saladederiz,,rotilégumestofu,riz,brocolis,pommegala,orange
-91,13:16:23,2Z9H,saladederiz,,boulettesviande,riz,,pommegala,
-92,13:17:07,3S3F,saladederiz,,pavédepoissonbordelaise,riz,brocolis,parisbrest,liégeois
-93,13:17:29,0T3B,minisandwich,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,poire
-94,13:17:37,8N8Q,pasdentrée,,kebab,frites,,pasdedessert,
-95,13:17:57,6F0E,pasdentrée,,kebab,frites,,pasdedessert,
-96,13:18:38,0X6C,betterave,saladederiz,boulettesviande,brocolis,,parisbrest,
-97,13:19:18,0N9P,pâté,,pavédepoissonbordelaise,rotilégumestofu,riz,yaourtauxfruitsenmorceaux,parisbrest
-98,13:19:24,5I5D,saladedechou,,boulettesviande,riz,brocolis,tarteauxfruits,
-99,13:19:47,9O9K,pasdentrée,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,parisbrest
-100,13:19:49,0H2B,pasdentrée,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,parisbrest
-101,13:20:49,4Z3U,saladedechou,,rotilégumestofu,riz,brocolis,pommegala,orange
-102,13:21:03,3S3F,saladederiz,,pavédepoissonbordelaise,riz,brocolis,parisbrest,liégeois
-103,13:21:21,9G6O,pasdentrée,,kebab,frites,,parisbrest,
-104,13:22:13,3S8I,pasdentrée,,kebab,frites,,pasdedessert,
-105,13:23:32,9V3F,pasdentrée,,kebab,frites,,pasdedessert,
-106,13:23:35,7L8N,pasdentrée,,kebab,frites,,pasdedessert,
-107,13:24:00,3E3Y,pasdentrée,,kebab,frites,,pasdedessert,
-108,13:24:39,1W7I,champignonsalitalienne,saladederiz,boulettesviande,riz,brocolis,fromageblancnature,
-109,13:24:50,3I9X,champignonsalitalienne,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,kiwi
-110,13:25:09,9M5B,pâté,,boulettesviande,riz,,parisbrest,
-111,13:25:32,1R9D,pâté,,pavédepoissonbordelaise,riz,,parisbrest,
-112,13:26:12,3O6U,pasdentrée,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,parisbrest
-113,13:26:13,5Q1R,saladedechou,,boulettesviande,riz,brocolis,parisbrest,pommegala
-114,13:26:36,9J7R,minisandwich,pâté,boulettesviande,riz,brocolis,parisbrest,
-115,13:27:16,4A7O,pâté,,rotilégumestofu,riz,boulettesviande,parisbrest,
-116,13:28:40,9B5K,pâté,,boulettesviande,riz,,pasdedessert,
-117,13:29:20,2R7A,champignonsalitalienne,,rotilégumestofu,riz,brocolis,yaourtauxfruitsenmorceaux,
-118,13:30:11,102T,pâté,,rotilégumestofu,riz,boulettesviande,parisbrest,
-119,13:30:50,6C05,saladederiz,,pavédepoissonbordelaise,rotilégumestofu,riz,yaourtauxfruitsenmorceaux,parisbrest
-120,13:31:45,7T4X,pasdentrée,,kebab,frites,,yaourtauxfruitsenmorceaux,
-121,13:32:02,1J8K,pasdentrée,,boulettesviande,riz,brocolis,pommegala,
-122,13:32:44,3V6V,saladedechou,pâté,boulettesviande,riz,,poire,
-123,13:33:31,6T0P,betterave,,pavédepoissonbordelaise,riz,brocolis,parisbrest,kiwi
-124,13:33:47,OI6B,pasdentrée,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,parisbrest
-125,13:34:17,7P1T,saladederiz,,pavédepoissonbordelaise,riz,brocolis,parisbrest,
-126,13:34:21,5C9D,pasdentrée,,pavédepoissonbordelaise,riz,,yaourtauxfruitsenmorceaux,poire
-127,13:35:12,0G1P,carottesrapees,,boulettesviande,riz,,orange,poire
-128,13:35:22,8Z9E,pasdentrée,,entrecôte,frites,salade,bleudauvergneaop,parisbrest
-129,13:35:45,9W3F,pasdentrée,,kebab,frites,,yaourtnature,
-130,13:36:28,7X7O,pasdentrée,,entrecôte,frites,salade,pasdedessert,
-131,13:36:37,3V0A,saladedechou,,pavédepoissonbordelaise,riz,brocolis,parisbrest,
-132,13:37:16,2W6P,artichauts,,boulettesviande,riz,brocolis,parisbrest,
-133,13:38:04,1V8P,minisandwich,rillettespoisson,pavédepoissonbordelaise,riz,,parisbrest,
-134,13:38:37,9Z3C,saladedechou,,rotilégumestofu,riz,,pruneauxausirop,
-135,13:39:36,2W1Q,pasdentrée,,pavédepoissonbordelaise,riz,brocolis,pommegala,orange+pruneauxausirop
-136,12:40:00,3C4H,pâté,,boulettesviande,riz,,tarteauxfruits,
-137,12:41:00,5C2M,betterave,,pavédepoissonbordelaise,riz,brocolis,pruneauxausirop,
-138,12:43:00,5X3K,saladederiz,,rotilégumestofu,riz,brocolis,tarteauxfruits,
-139,12:44:00,7B9M,saladedechou,,cordonbleu,riz,brocolis,parisbrest,
-140,12:44:15,,rillettespoisson,,boulettesviande,riz,brocolis,crèmepraliné,
-141,12:44:30,7F0W,rillettespoisson,,boulettesviande,riz,brocolis,crèmepraliné,
-142,12:54:00,9I9S,saladedechou,,boulettesviande,riz,brocolis,tarteauxfruits,
-143,12:56:00,3Y2G,minisandwich,,rotilégumestofu,riz,brocolis,emmental,yaourtauxfruitsenmorceaux
-144,12:57:00,4D2Y,pasdentrée,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest
-145,12:59:00,9R1R,rillettespoisson,,boulettesviande,riz,brocolis,bleudauvergneaop,
-146,13:00:00,4M4I,betterave,pâté,boulettesviande,riz,brocolis,pasdedessert,
-147,13:01:00,9I1E,pasdentrée,,pavédepoissonbordelaise,riz,brocolis,emmental,tarteauxfruits
-148,13:02:00,8A1R,artichauts,,rotilégumestofu,riz,brocolis,bleudauvergneaop,parisbrest
-149,13:03:00,,pasdentrée,,cordonbleu,riz,brocolis,bleudauvergneaop,yaourtauxfruitsenmorceaux
-150,13:05:00,7Y2K,artichauts,,pavédepoissonbordelaise,riz,brocolis,pommegala,pruneauxausirop
-151,13:04:00,,rillettespoisson,,pavédepoissonbordelaise,riz,brocolis,parisbrest,pommegala
-152,13:00:15,1F7A,pasdentrée,,kebab,frites,,yaourtauxfruitsenmorceaux,pommegala
-153,13:00:30,5Q8S,betterave,,pavédepoissonbordelaise,riz,brocolis,pommegala,poire
-154,13:03:30,3B1N,betterave,,boulettesviande,riz,,parisbrest,yaourtnature
-155,13:01:30,2E8R,pasdentrée,,pavédepoissonbordelaise,riz,brocolis,bleudauvergneaop,yaourtauxfruitsenmorceaux
-156,12:56:20,8D7X,betterave,,cordonbleu,riz,brocolis,parisbrest,
-157,12:56:40,3U9V,saladedechou,,cordonbleu,riz,brocolis,tarteauxfruits,
-158,13:05:30,8W0W,pasdentrée,,pavédepoissonbordelaise,riz,brocolis,pommegala,tarteauxfruits
-159,13:06:00,5J1R,saladederiz,,pavédepoissonbordelaise,riz,brocolis,tarteauxfruits,
-160,13:04:00,2N5P,pasdentrée,,boulettesviande,brocolis,,yaourtauxfruitsenmorceaux,parisbrest
-161,13:03:45,4D8M,pasdentrée,,pavédepoissonbordelaise,riz,,emmental,parisbrest
-162,13:05:45,1U6R,betterave,,rotilégumestofu,riz,brocolis,pommegala,yaourtnature
-163,13:06:30,1Q9K,pasdentrée,,rotilégumestofu,riz,brocolis,bleudauvergneaop,yaourtauxfruitsenmorceaux
-164,13:07:00,7A0X,saladederiz,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,
-165,13:09:00,0H5L,betterave,,pavédepoissonbordelaise,riz,brocolis,emmental,parisbrest
-166,13:09:30,9X1Z,pâté,,rotilégumestofu,riz,brocolis,pommegala,
-167,13:10:00,2J2X,carottesrapees,,filetdepoulet,riz,boulettesviande,tarteauxfruits,
-168,13:10:30,6A4U,pasdentrée,,rotilégumestofu,riz,brocolis,orange,yaourtnature+poire
-169,13:16:30,1O0R,saladederiz,,boulettesviande,riz,brocolis,emmental,parisbrest
+Unnamed: 0,Horodateur,Numéro de formulaire ,ENTREE_1,ENTREE_2,ENTREE_3,PLAT_1,PLAT_2,PLAT_3,DESSERT_1,DESSERT_2,DESSERT_3
+0, 12:35:00,9D6N,minisandwich,,,cordonbleu,riz,brocolis,pommegala,,
+1, 12:36:38,5A5R,saladederiz,,,cordonbleu,riz,brocolis,tarteauxfruits,,
+2, 12:37:52,8S7L,pasdentrée,,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,banane,
+3, 12:38:09,8N6P,saladederiz,,,cordonbleu,riz,brocolis,parisbrest,,
+4, 12:39:08,1C5X,saladederiz,,,rotilégumestofu,riz,brocolis,tarteauxfruits,,
+5, 12:39:19,0N3Z,pasdentrée,,,rotilégumestofu,riz,brocolis,poire,,
+6, 12:40:10,7B2H,saladedechou,,,cordonbleu,riz,brocolis,tarteauxfruits,,
+7, 12:40:49,9Q5A,pasdentrée,,,pavédepoissonbordelaise,riz,,fromageblancnature,parisbrest,
+8, 12:41:09,3E1Q,saladederiz,,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,,
+9, 12:41:17,3N5Y,betterave,,,cordonbleu,riz,brocolis,yaourtauxfruitsenmorceaux,crèmepraliné,
+10, 12:41:47,5LOV,saladederiz,,,pavédepoissonbordelaise,riz,brocolis,parisbrest,,
+11, 12:42:08,2Q8X,pasdentrée,,,pizzakebab,frites,salade,parisbrest,orange,cocktailfruitsexotiques
+12, 12:43:11,2L4N,pasdentrée,,,cordonbleu,riz,brocolis,fromageblancnature,tarteauxfruits,
+13, 12:43:19,0Y1G,pasdentrée,,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest,
+14, 12:43:46,5C2M,betterave,,,cordonbleu,riz,brocolis,pruneauxausirop,yaourtnature,
+15, 12:43:57,1J6P,pasdentrée,,,cordonbleu,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest,
+16, 12:44:07,2K9I,pasdentrée,,,cordonbleu,riz,brocolis,emmental,parisbrest,
+17, 12:44:30,9W30,pasdentrée,,,cordonbleu,riz,,parisbrest,orange,
+18, 12:44:53,6T3Q,pasdentrée,,,cordonbleu,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest,pommegala
+19, 12:45:07,2O7S,betterave,,,pavédepoissonbordelaise,riz,brocolis,parisbrest,pruneauxausirop,
+20, 12:45:35,5U3X,pasdentrée,,,pavédepoissonbordelaise,riz,brocolis,emmental,yaourtauxfruitsenmorceaux,
+21, 12:46:41,5G9R,pasdentrée,,,filetdepoulet,riz,brocolis,yaourtauxfruitsenmorceaux,poire,
+22, 12:47:09,0M0L,pasdentrée,,,cordonbleu,riz,brocolis,emmental,,
+23, 12:47:39,0E2X,saladederiz,,,cordonbleu,riz,brocolis,parisbrest,,
+24, 12:48:20,0S4Y,pasdentrée,,,cordonbleu,riz,brocolis,bleudauvergneaop,parisbrest,
+25, 12:49:01,2T3H,artichauts,,,cordonbleu,riz,brocolis,yaourtauxfruitsenmorceaux,,
+26, 12:50:10,6M1O,pâté,,,pavédepoissonbordelaise,riz,brocolis,emmental,parisbrest,
+27, 12:51:10,5Q8O,betterave,,,boulettesviande,riz,brocolis,parisbrest,,
+28, 12:51:47,8X6E,artichauts,,,cordonbleu,riz,brocolis,parisbrest,liégeois,
+29, 12:52:09,5S7A,pasdentrée,,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest,pruneauxausirop
+30, 12:52:42,6E4S,pasdentrée,,,rotilégumestofu,riz,brocolis,emmental,tarteauxfruits,
+31, 12:53:03,5B3U,betterave,,,rotilégumestofu,riz,brocolis,parisbrest,pommegala,
+32, 12:53:16,5S4C,saladedechou,,,rotilégumestofu,riz,brocolis,tarteauxfruits,,
+33, 12:54:35,3K9G,pasdentrée,,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest,
+34, 12:55:02,6G4G,pâté,,,filetdepoulet,riz,brocolis,parisbrest,,
+35, 12:55:16,7F1D,pasdentrée,,,cordonbleu,riz,brocolis,emmental,tarteauxfruits,
+36, 12:55:41,5F9Z,pasdentrée,,,filetdepoulet,riz,brocolis,parisbrest,yaourtnature,
+37, 12:56:02,,pasdentrée,,,boulettesviande,riz,brocolis,parisbrest,,
+38, 12:56:15,7R3E,pasdentrée,,,pizzakebab,frites,salade,pasdedessert,,
+39, 12:56:29,6C3U,pasdentrée,,,boulettesviande,riz,brocolis,parisbrest,,
+40, 12:56:54,8S7P,saladederiz,,,cordonbleu,riz,brocolis,parisbrest,,
+41, 12:57:02,0Y5X,saladederiz,,,boulettesviande,riz,brocolis,tarteauxfruits,,
+42, 12:57:24,3Q5T,saladederiz,,,cordonbleu,riz,brocolis,parisbrest,,
+43, 12:57:31,9I2L,betterave,,,rotilégumestofu,riz,,parisbrest,,
+44, 12:58:08,5Q0Y,betterave,,,pavédepoissonbordelaise,riz,brocolis,parisbrest,yaourtnature,
+45, 12:58:21,7V9Y,pasdentrée,,,pizzakebab,frites,,pasdedessert,,
+46, 12:58:38,1I3P,pasdentrée,,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,tarteauxfruits,
+47, 12:58:49,7F0W,rillettespoisson,,,boulettesviande,riz,brocolis,crèmepraliné,,
+48, 12:58:52,8X0N,pasdentrée,,,kebab,frites,,pasdedessert,,
+49, 12:59:34,8T1Q,betterave,,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest,
+50, 12:59:47,OR1F,pasdentrée,,,boulettesviande,riz,,parisbrest,liégeois,
+51,13:00:13,1F7A,pasdentrée,,,kebab,frites,,yaourtauxfruitsenmorceaux,pommegala,
+52,13:00:37,7E5H,artichauts,,,filetdepoulet,riz,brocolis,parisbrest,pommegala,
+53,13:01:09,5Q8S,betterave,,,pavédepoissonbordelaise,riz,brocolis,pommegala,poire,
+54,13:01:11,1V0X,pasdentrée,,,pavédepoissonbordelaise,riz,brocolis,pommegala,orange,
+55,13:01:43,,betterave,,,filetdepoulet,riz,brocolis,parisbrest,poire,
+56,13:02:12,4P8C,betterave,,,filetdepoulet,riz,brocolis,parisbrest,poire,
+57,13:02:24,5L7H,saladederiz,,,rotilégumestofu,riz,brocolis,parisbrest,pommegala,
+58,13:02:56,9YFK,betterave,,,rotilégumestofu,riz,,emmental,,
+59,13:03:22,2U9G,carottesrapees,,,rotilégumestofu,riz,,yaourtauxfruitsenmorceaux,,
+60,13:03:37,4A4Z,pasdentrée,,,rotilégumestofu,riz,brocolis,emmental,orange,tarteauxfruits
+61,13:03:44,7H7Y,pasdentrée,,,filetdepoulet,riz,brocolis,parisbrest,pommegala,
+62,13:04:49,3R8M,saladedepates,,,rotilégumestofu,brocolis,,emmental,,
+63,13:04:56,1F9Y,saladederiz,,,boulettesviande,riz,brocolis,parisbrest,,
+64,13:05:04,3U7V,saladederiz,,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,,
+65,13:05:34,8G6G,minisandwich,,,rotilégumestofu,riz,brocolis,yaourtauxfruitsenmorceaux,tarteauxfruits,
+66,13:05:39,6G5H,carottesrapees,,,boulettesviande,riz,brocolis,emmental,,
+67,13:05:52,1U6R,betterave,,,rotilégumestofu,riz,,yaourtnature,,
+68,13:06:19,3V4C,pasdentrée,,,kebab,frites,,pasdedessert,,
+69,13:06:36,3O2U,pasdentrée,,,kebab,frites,,pasdedessert,,
+70,13:06:52,5Z4K,pasdentrée,,,pavédepoissonbordelaise,riz,brocolis,yaourtnature,liégeois,
+71,13:08:09,4U3U,saladederiz,,,pavédepoissonbordelaise,riz,boulettesviande,parisbrest,pruneauxausirop,
+72,13:08:21,7V3K,artichauts,,,pavédepoissonbordelaise,rotilégumestofu,riz,pruneauxausirop,,
+73,13:09:00,0U8E,carottesrapees,,,pavédepoissonbordelaise,riz,,yaourtauxfruitsenmorceaux,poire,
+74,13:09:16,5R7Y,carottesrapees,,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,pommegala,
+75,13:09:36,4O8C,pâté,,,rotilégumestofu,riz,boulettesviande,tarteauxfruits,,
+76,13:10:02,1Y7U,carottesrapees,saladederiz,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,,
+77,13:10:14,2J2X,carottesrapees,,,pavédepoissonbordelaise,riz,boulettesviande,tarteauxfruits,,
+78,13:10:19,7N0N,pâté,,,rotilégumestofu,riz,boulettesviande,yaourtauxfruitsenmorceaux,liégeois,
+79,13:10:38,8Q9F,carottesrapees,,,rotilégumestofu,riz,brocolis,parisbrest,,
+80,13:10:48,8G5E,betterave,,,pavédepoissonbordelaise,riz,brocolis,parisbrest,,
+81,13:12:22,1W3S,pasdentrée,,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,tarteauxfruits,
+82,13:12:29,9C8Y,pasdentrée,,,pavédepoissonbordelaise,riz,boulettesviande,gâteaudesemoule,parisbrest,
+83,13:12:22,1A9V,carottesrapees,,,filetdepoulet,riz,brocolis,parisbrest,,
+84,13:12:43,3S5G,minisandwich,,,boulettesviande,riz,,parisbrest,,
+85,13:12:46,4E9P,pâté,,,boulettesviande,riz,brocolis,parisbrest,,
+86,13:13:16,1W5H,pasdentrée,,,pavédepoissonbordelaise,riz,boulettesviande,yaourtauxfruitsenmorceaux,tarteauxfruits,
+87,13:14:01,3V9C,pasdentrée,,,rotilégumestofu,riz,brocolis,parisbrest,,
+88,13:14:26,1B0U,pasdentrée,,,rotilégumestofu,riz,brocolis,bleudauvergneaop,parisbrest,
+89,13:14:52,6T3K,pasdentrée,,,rotilégumestofu,riz,brocolis,bleudauvergneaop,yaourtnature,
+90,13:15:25,8W1B,saladederiz,,,rotilégumestofu,riz,brocolis,pommegala,orange,
+91,13:16:23,2Z9H,saladederiz,,,boulettesviande,riz,,pommegala,,
+92,13:17:07,3S3F,saladederiz,,,pavédepoissonbordelaise,riz,brocolis,parisbrest,liégeois,
+93,13:17:29,0T3B,minisandwich,,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,poire,
+94,13:17:37,8N8Q,pasdentrée,,,kebab,frites,,pasdedessert,,
+95,13:17:57,6F0E,pasdentrée,,,kebab,frites,,pasdedessert,,
+96,13:18:38,0X6C,betterave,saladederiz,,boulettesviande,brocolis,,parisbrest,,
+97,13:19:18,0N9P,pâté,,,pavédepoissonbordelaise,rotilégumestofu,riz,yaourtauxfruitsenmorceaux,parisbrest,
+98,13:19:24,5I5D,saladedechou,,,boulettesviande,riz,brocolis,tarteauxfruits,,
+99,13:19:47,9O9K,pasdentrée,,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,parisbrest,
+100,13:19:49,0H2B,pasdentrée,,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,parisbrest,
+101,13:20:49,4Z3U,saladedechou,,,rotilégumestofu,riz,brocolis,pommegala,orange,
+102,13:21:03,3S3F,saladederiz,,,pavédepoissonbordelaise,riz,brocolis,parisbrest,liégeois,
+103,13:21:21,9G6O,pasdentrée,,,kebab,frites,,parisbrest,,
+104,13:22:13,3S8I,pasdentrée,,,kebab,frites,,pasdedessert,,
+105,13:23:32,9V3F,pasdentrée,,,kebab,frites,,pasdedessert,,
+106,13:23:35,7L8N,pasdentrée,,,kebab,frites,,pasdedessert,,
+107,13:24:00,3E3Y,pasdentrée,,,kebab,frites,,pasdedessert,,
+108,13:24:39,1W7I,champignonsalitalienne,saladederiz,,boulettesviande,riz,brocolis,fromageblancnature,,
+109,13:24:50,3I9X,champignonsalitalienne,,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,kiwi,
+110,13:25:09,9M5B,pâté,,,boulettesviande,riz,,parisbrest,,
+111,13:25:32,1R9D,pâté,,,pavédepoissonbordelaise,riz,,parisbrest,,
+112,13:26:12,3O6U,pasdentrée,,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,parisbrest,
+113,13:26:13,5Q1R,saladedechou,,,boulettesviande,riz,brocolis,parisbrest,pommegala,
+114,13:26:36,9J7R,minisandwich,pâté,,boulettesviande,riz,brocolis,parisbrest,,
+115,13:27:16,4A7O,pâté,,,rotilégumestofu,riz,boulettesviande,parisbrest,,
+116,13:28:40,9B5K,pâté,,,boulettesviande,riz,,pasdedessert,,
+117,13:29:20,2R7A,champignonsalitalienne,,,rotilégumestofu,riz,brocolis,yaourtauxfruitsenmorceaux,,
+118,13:30:11,102T,pâté,,,rotilégumestofu,riz,boulettesviande,parisbrest,,
+119,13:30:50,6C05,saladederiz,,,pavédepoissonbordelaise,rotilégumestofu,riz,yaourtauxfruitsenmorceaux,parisbrest,
+120,13:31:45,7T4X,pasdentrée,,,kebab,frites,,yaourtauxfruitsenmorceaux,,
+121,13:32:02,1J8K,pasdentrée,,,boulettesviande,riz,brocolis,pommegala,,
+122,13:32:44,3V6V,saladedechou,pâté,,boulettesviande,riz,,poire,,
+123,13:33:31,6T0P,betterave,,,pavédepoissonbordelaise,riz,brocolis,parisbrest,kiwi,
+124,13:33:47,OI6B,pasdentrée,,,boulettesviande,riz,,yaourtauxfruitsenmorceaux,parisbrest,
+125,13:34:17,7P1T,saladederiz,,,pavédepoissonbordelaise,riz,brocolis,parisbrest,,
+126,13:34:21,5C9D,pasdentrée,,,pavédepoissonbordelaise,riz,,yaourtauxfruitsenmorceaux,poire,
+127,13:35:12,0G1P,carottesrapees,,,boulettesviande,riz,,orange,poire,
+128,13:35:22,8Z9E,pasdentrée,,,entrecôte,frites,salade,bleudauvergneaop,parisbrest,
+129,13:35:45,9W3F,pasdentrée,,,kebab,frites,,yaourtnature,,
+130,13:36:28,7X7O,pasdentrée,,,entrecôte,frites,salade,pasdedessert,,
+131,13:36:37,3V0A,saladedechou,,,pavédepoissonbordelaise,riz,brocolis,parisbrest,,
+132,13:37:16,2W6P,artichauts,,,boulettesviande,riz,brocolis,parisbrest,,
+133,13:38:04,1V8P,minisandwich,rillettespoisson,,pavédepoissonbordelaise,riz,,parisbrest,,
+134,13:38:37,9Z3C,saladedechou,,,rotilégumestofu,riz,,pruneauxausirop,,
+135,13:39:36,2W1Q,pasdentrée,,,pavédepoissonbordelaise,riz,brocolis,pommegala,orange,pruneauxausirop
+136,12:40:00,3C4H,pâté,,,boulettesviande,riz,,tarteauxfruits,,
+137,12:41:00,5C2M,betterave,,,pavédepoissonbordelaise,riz,brocolis,pruneauxausirop,,
+138,12:43:00,5X3K,saladederiz,,,rotilégumestofu,riz,brocolis,tarteauxfruits,,
+139,12:44:00,7B9M,saladedechou,,,cordonbleu,riz,brocolis,parisbrest,,
+140,12:44:15,,rillettespoisson,,,boulettesviande,riz,brocolis,crèmepraliné,,
+141,12:44:30,7F0W,rillettespoisson,,,boulettesviande,riz,brocolis,crèmepraliné,,
+142,12:54:00,9I9S,saladedechou,,,boulettesviande,riz,brocolis,tarteauxfruits,,
+143,12:56:00,3Y2G,minisandwich,,,rotilégumestofu,riz,brocolis,emmental,yaourtauxfruitsenmorceaux,
+144,12:57:00,4D2Y,pasdentrée,,,boulettesviande,riz,brocolis,yaourtauxfruitsenmorceaux,parisbrest,
+145,12:59:00,9R1R,rillettespoisson,,,boulettesviande,riz,brocolis,bleudauvergneaop,,
+146,13:00:00,4M4I,betterave,pâté,,boulettesviande,riz,brocolis,pasdedessert,,
+147,13:01:00,9I1E,pasdentrée,,,pavédepoissonbordelaise,riz,brocolis,emmental,tarteauxfruits,
+148,13:02:00,8A1R,artichauts,,,rotilégumestofu,riz,brocolis,bleudauvergneaop,parisbrest,
+149,13:03:00,,pasdentrée,,,cordonbleu,riz,brocolis,bleudauvergneaop,yaourtauxfruitsenmorceaux,
+150,13:05:00,7Y2K,artichauts,,,pavédepoissonbordelaise,riz,brocolis,pommegala,pruneauxausirop,
+151,13:04:00,,rillettespoisson,,,pavédepoissonbordelaise,riz,brocolis,parisbrest,pommegala,
+152,13:00:15,1F7A,pasdentrée,,,kebab,frites,,yaourtauxfruitsenmorceaux,pommegala,
+153,13:00:30,5Q8S,betterave,,,pavédepoissonbordelaise,riz,brocolis,pommegala,poire,
+154,13:03:30,3B1N,betterave,,,boulettesviande,riz,,parisbrest,yaourtnature,
+155,13:01:30,2E8R,pasdentrée,,,pavédepoissonbordelaise,riz,brocolis,bleudauvergneaop,yaourtauxfruitsenmorceaux,
+156,12:56:20,8D7X,betterave,,,cordonbleu,riz,brocolis,parisbrest,,
+157,12:56:40,3U9V,saladedechou,,,cordonbleu,riz,brocolis,tarteauxfruits,,
+158,13:05:30,8W0W,pasdentrée,,,pavédepoissonbordelaise,riz,brocolis,pommegala,tarteauxfruits,
+159,13:06:00,5J1R,saladederiz,,,pavédepoissonbordelaise,riz,brocolis,tarteauxfruits,,
+160,13:04:00,2N5P,pasdentrée,,,boulettesviande,brocolis,,yaourtauxfruitsenmorceaux,parisbrest,
+161,13:03:45,4D8M,pasdentrée,,,pavédepoissonbordelaise,riz,,emmental,parisbrest,
+162,13:05:45,1U6R,betterave,,,rotilégumestofu,riz,brocolis,pommegala,yaourtnature,
+163,13:06:30,1Q9K,pasdentrée,,,rotilégumestofu,riz,brocolis,bleudauvergneaop,yaourtauxfruitsenmorceaux,
+164,13:07:00,7A0X,saladederiz,,,pavédepoissonbordelaise,riz,brocolis,yaourtauxfruitsenmorceaux,,
+165,13:09:00,0H5L,betterave,,,pavédepoissonbordelaise,riz,brocolis,emmental,parisbrest,
+166,13:09:30,9X1Z,pâté,,,rotilégumestofu,riz,brocolis,pommegala,,
+167,13:10:00,2J2X,carottesrapees,,,filetdepoulet,riz,boulettesviande,tarteauxfruits,,
+168,13:10:30,6A4U,pasdentrée,,,rotilégumestofu,riz,brocolis,orange,yaourtnature,poire
+169,13:16:30,1O0R,saladederiz,,,boulettesviande,riz,brocolis,emmental,parisbrest,
