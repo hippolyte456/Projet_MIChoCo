@@ -15,19 +15,31 @@ Deux études différentes :
 
  - `clean_csv.ipynb` :  
  	**Input :** Fichier .csv (Regroupements_plats-version-article2022.csv <-- data_CROUS/data)  
-	**Output :** Fichier .csv (Regroupements_plats-version-article2022_clean.csv --> data_CROUS/data_processed)  
+	**Output :** Fichier .csv (Regroupements_plats-version-article2022_clean.csv **-->** data_CROUS/data_processed)  
 	  
 	Enlève les NaN dans "Regroupements_plats-version-article2022.csv" et remets les bons noms de Catégorie (Entrée, Plat, Dessert)  
 	Sauvegarde les résultats dans "Regroupements_plats-version-article2022_clean.csv"  
 
 - `preprocessing.ipynb` :  
- 	**Input :** Fichier .csv (Resultats_choix_XX_octobre.csv.csv <-- data_CROUS/data)  
-	**Output :** Fichier .csv (Resultats_choix_XX_octobre_processed.csv --> data_CROUS/data_preprocessed)  
+ 	**Input :** Fichier .csv (Resultats_choix_XX_octobre.csv **<-**- data_CROUS/data)  
+	**Output :** Fichier .csv (Resultats_choix_XX_octobre_processed.csv **-->** data_CROUS/data_preprocessed)  
 	
 	  
-- Dossier **One_Hot**
-- Dossier **One_Hot_R**
+- Dossier **One_Hot** :
+	- `OneHot Formulaires.ipynb` :  
+		**Input :** 4 Fichiers .csv (Resultats_formulaires_XX_octobre.csv <-- data_CROUS/data)  
+		**Output :** Fichier .csv (One_Hot_Formulaires.csv --> One_Hot)
+		
+		Récupère les fichiers *Formulaires* brut, les pré-traite, transforme les variables catégorielles en variables numériques notamment par One Hot Encoding.
+
+- Dossier **One_Hot_R** :
+	- `One_Hot_R.Rmd` :  
+		**Input :** Fichier .csv (Resultats_choix_XX_octobre_processed.csv <-- data_CROUS/data_preprocessed)  
+		**Output :** Fichier .csv (OneHotEncoding_choix_XX_oct_processed.csv --> One_Hot_R)
 	
+		Récupère les fichiers *Choix* pré-traités et y applique du One Hot Encoding sur les entrées, plats et desserts.
+		Il faudra surement modifier ce fichier pour agisse sur les 4 fichiers d'Octobre à la fois et ne sorte qu'un fichier des sortie (cf One_Hot_Formulaires).
+		
 ## Analyse
 
 - `analyse_prelim.ipynb`
