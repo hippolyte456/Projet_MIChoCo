@@ -44,3 +44,11 @@ Deux études différentes :
 
 - `analyse_prelim.ipynb`
 
+
+
+
+## Remarque diverses à reprendre 
+- il faut faire le même preprocessing que dans preprocess hippo pour tous les fichiers 
+- attention, on a un problème de merge par num
+- métrique entre les choix à définir
+
