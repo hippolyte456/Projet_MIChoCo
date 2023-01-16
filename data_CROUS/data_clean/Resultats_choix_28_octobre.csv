@@ -1,7 +1,7 @@
 ﻿Horodateur;Numéro de formulaire ;ENTREE;Prise en double de l'entrée ;PLAT ;DESSERT;Prise en double du dessert
  12:35:00;9D6N;Mini sandwich;Oui;Cordon bleu + Riz + Brocolis;Pomme Gala;Non
  12:36:38;5A5R;Salade de riz;Non;Cordon bleu + Riz + Brocolis;Tarte aux fruits;Non
- 12:37:52;8S7L;Pas d'entrée;Non;Riz + Boulettes viande;Yaourt aux fruits en morceaux + Banane;Non
+ 12:37:52;8S7L;Pas d'entrée;Non;Boulettes viande + Riz;Yaourt aux fruits en morceaux + Banane;Non
  12:38:09;8N6P;Salade de riz;Non;Cordon bleu + Riz + Brocolis;Paris Brest;Non
  12:39:08;1C5X;Salade de riz;Non;Roti légumes tofu + Riz + Brocolis;Tarte aux fruits;Oui
  12:39:19;0N3Z;Pas d'entrée;Non;Roti légumes tofu + Riz + Brocolis;Poire;Non
@@ -83,7 +83,7 @@
 13:12:22;1W3S;Pas d'entrée;Non;Boulettes viande + Riz + Brocolis;Yaourt aux fruits en morceaux + Tarte aux fruits;Non
 13:12:29;9C8Y;Pas d'entrée;Non;Pavé de poisson bordelaise + Riz + Boulettes viande ;Gâteau de semoule + Paris Brest ;Non
 13:12:22;1A9V;Carottes rapees;Non;Filet de poulet + Riz + Brocolis;Paris Brest;Non
-13:12:43;3S5G;Mini sandwich;Non;Riz + Boulettes viande ;Paris Brest;Non
+13:12:43;3S5G;Mini sandwich;Non;Boulettes viande + Riz;Paris Brest;Non
 13:12:46;4E9P;Pâté;Non;Boulettes viande + Riz + Brocolis;Paris Brest;Non
 13:13:16;1W5H;Pas d'entrée;Non;Pavé de poisson bordelaise + Riz + Boulettes viande ;Yaourt aux fruits en morceaux + Tarte aux fruits;Non
 13:14:01;3V9C;Pas d'entrée;Non;Roti légumes tofu + Riz + Brocolis;Paris Brest;Non
@@ -120,11 +120,11 @@
 13:30:11;102T;Pâté;Non;Roti légumes tofu + Riz + Boulettes viande;Paris Brest;Non
 13:30:50;6C05;Salade de riz;Non;Pavé de poisson bordelaise + Roti légumes tofu + Riz;Yaourt aux fruits en morceaux + Paris Brest ;Non 
 13:31:45;7T4X;Pas d'entrée;Non;Kebab + Frites ;Yaourt aux fruits en morceaux;Non
-13:32:02;1J8K;Pas d'entrée;Non;Brocolis + Riz + Boulettes viande ;Pomme Gala;Non 
+13:32:02;1J8K;Pas d'entrée;Non;Boulettes viande + Riz +  Brocolis ;Pomme Gala;Non 
 13:32:44;3V6V;salade de chou + Pâté;Non;Boulettes viande + Riz ;Poire;Non
 13:33:31;6T0P;Betterave;Non;Pavé de poisson bordelaise + Riz + Brocolis ;Paris Brest + Kiwi;Non
 13:33:47;OI6B;Pas d'entrée;Non;Boulettes viande + Riz ;Yaourt aux fruits en morceaux + Paris Brest;Oui
-13:34:17;7P1T;Salade de riz;Non;Pavé de poisson bordelaise + Brocolis + Riz;Paris Brest;Non
+13:34:17;7P1T;Salade de riz;Non;Pavé de poisson bordelaise + Riz + Brocolis;Paris Brest;Non
 13:34:21;5C9D;Pas d'entrée;Non;Pavé de poisson bordelaise + Riz ;Yaourt aux fruits en morceaux + Poire;Oui
 13:35:12;0G1P;Carottes rapees;Non;Boulettes viande + Riz ;Orange + Poire;Non
 13:35:22;8Z9E;Pas d'entrée;Non;Entrecôte + Frites + Salade ;Bleu d'Auvergne AOP + Paris Brest;Non
