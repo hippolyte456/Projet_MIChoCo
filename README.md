@@ -44,7 +44,10 @@ Deux études différentes :
 
 - `analyse_prelim.ipynb`
 
-
+- Dossier **Stat_R** :
+	- `Stat_R.rmd`
+		**Input :** Fichier .csv (Merged.csv)  
+		**Output :** Figures		
 
 
 ## Remarque diverses à reprendre 
