@@ -46,9 +46,10 @@ Deux études différentes :
 
 - Dossier **Stat_R** :  
 	- `Stat_R.rmd`  
-		**Input :** Fichier .csv (Merged.csv)  
+		**Input :** Fichier .csv (Merged.csv (*Formulaires* + *Choix*) )  
 		**Output :** Figures		
 
+		Statistiques de base sur les données : ACP et visualisation des variables explicatives (Taille, Faim...)
 
 ## Remarque diverses à reprendre 
 - il faut faire le même preprocessing que dans preprocess hippo pour tous les fichiers 
