@@ -1,0 +1,216 @@
+---
+title: "Analyse statistique préliminaire"
+subtitle: "Projet Michoco"
+date: "01/2023"
+output: html_document
+---
+  
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Début des stats sur R Projet Michoco
+
+```{r library, include=FALSE}
+library(readr)
+library(skimr)
+library(hms)
+library(tidyverse)
+library(ggplot2)
+library(factoextra)
+library(FactoMineR)
+library(corrplot)
+```
+
+## Données
+
+### Chargement des données
+
+```{r Data}
+Merged <- read.csv("Projet_MIChoCo/data_CROUS/preprocessed_hippo/merged_21_octobre.csv", sep = ",", fileEncoding="latin1")
+
+#head(Merged)
+dim(Merged)
+knitr::kable(head(Merged))
+```
+### Séparation en variables explicatives et variables à expliquer
+
+```{r}
+col <- colnames(Merged)
+col_explicatives <- c(3:23, length(col))
+col_expliquees <- c(26:length(col)-1)
+```
+
+### Redefinition des types de données
+
+```{r}
+str(Merged)
+```
+Transformation des variable :
+
+```{r}
+#Character vers numeric (problème de ',')
+
+for(i in c(1:length(Merged$Taille..m.))){
+    char <- Merged$Taille..m.[i]
+    Merged$Taille..m.[i] <- gsub(",",".", char)
+}
+
+for(i in c(1:length(Merged$IMC))){
+    char <- Merged$IMC[i]
+    Merged$IMC[i] <- gsub(",",".", char)
+}
+
+Merged$Taille..m. <- as.numeric(Merged$Taille..m.)
+Merged$IMC <- as.numeric(Merged$IMC)
+```
+
+```{r}
+#Cas de l'horodateur
+#Heure <- rep(as_hms(' 13:09:50 '), length(Merged$Horodateur))
+for(i in c(1:length(Merged$Horodateur))){
+    Merged$Horodateur[i] <- gsub(" ","", Merged$Horodateur[i])
+    if(length(Merged$Horodateur[i])>= length(Merged$Horodateur[1])){
+        Merged$Horodateur[i] <- paste(str_sub(Merged$Horodateur[i], 1, 4), str_sub(Merged$Horodateur[i], 6, 9))
+        Merged$Horodateur[i] <- gsub(" ","", Merged$Horodateur[i])
+    }
+}
+
+Merged$Horodateur <- as_hms(Merged$Horodateur)
+
+```
+
+```{r}
+str(Merged)
+```
+
+
+## Analyse univariée des variables explicatives
+
+### Analyse univariée de chaque variable (graphes et indicateurs adéquats)
+
+#### 1. Indicateurs adéquats
+
+On peut utiliser la fonction `skim` du package `skimr` pour faire un résumé par type de variable (les effectifs pour les variables factorielles, la moyenne, l'écart-type et les quartiles pour les variables numériques).
+
+```{r}
+summary(Merged[col_explicatives])
+skim(Merged[col_explicatives])
+```
+
+#### 2. Graphes pour les variables qualitatives
+
+Pour les variables qualitatives, on peut faire un barplot des effectifs:
+
+```{r}
+Merged['Genre'] %>% 
+  select(where(is.character)) %>% 
+  pivot_longer(cols = everything()) %>% 
+  ggplot(aes(x = value, fill = name)) +
+  geom_bar() +
+  facet_wrap(~ name, scales = "free")
+```
+
+#### 3. Graphes pour les variables quantatives
+
+Et faire un histogramme ou un "density plot" pour les variables quantitatives.
+
+```{r }
+Merged[col_explicatives] %>% 
+  select(where(is.numeric)) %>% 
+  pivot_longer(cols = everything()) %>% 
+  ggplot(aes(x = value, fill = name)) +
+  geom_histogram(bins = 30) +
+  facet_wrap(~ name, scales = "free")
+Merged[col_explicatives] %>% 
+  select(where(is.numeric)) %>% 
+  pivot_longer(cols = everything()) %>% 
+  ggplot(aes(x = value, fill = name)) +
+  geom_density() +
+  facet_wrap(~ name, scales = "free")
+```
+
+## Analyse univariée des variables à expliquer
+
+```{r eval=FALSE, include=FALSE}
+skim(Merged[col_expliquees])
+```
+
+```{r eval=FALSE, include=FALSE}
+Merged[col_expliquees] %>% 
+  select(where(is.numeric)) %>% 
+  pivot_longer(cols = everything()) %>% 
+  ggplot(aes(x = value, fill = name)) +
+  geom_histogram(bins = 30) +
+  facet_wrap(~ name, scales = "free")
+```
+
+```{r}
+Type <- c(rep('plat', 14), rep('entree', 10), rep('dessert', 13))
+Nom <- colnames(Merged[col_expliquees])
+Somme <- colSums(Merged[col_expliquees])
+
+Choix <- data.frame(Nom, Somme, Type)
+
+ggplot(data=Choix, aes(x=Nom, y=Somme, fill=Type)) +  geom_bar(stat = "identity") + theme(axis.text.x = element_text(angle = 90))
+
+```
+
+## Analyse en composantes principales
+
+On s'intéresse à la contribution de chaque variable explicative au choix de l'individu (variable à expliquer).
+
+### Etudier les corrélations entre les variables quantitatives du jeu de données.
+
+#### Variables explicatives
+```{r }
+Merged[col_explicatives] %>% 
+  select(where(is.numeric)) %>% 
+  cor() %T>% # Opérateur pour ne pas casser le pipe
+  print(digits = 2) %>%
+  corrplot()
+```
+
+Les variables quantitatives sont peu corrélées. Des corrélations auxquelles on peut s'attendre: Taille, IMC et poids, ou encore végétarien et régime particulier. Et des correlation (équilibre alimentaire et stress ou activité physique) anti-corrélations autres (faim et IMC, faim et âge ou faim et influence sociale). Il faudra voir si on prend tout en compte par la suite.
+
+#### Variables de choix à expliquer
+
+```{r }
+Merged[col_expliquees] %>% 
+  select(where(is.numeric)) %>% 
+  cor() %T>% 
+  print(digits = 2) %>%
+  corrplot()
+```
+
+### Réaliser une ACP.
+
+```{r}
+#l'ACP
+num <- Merged[col_explicatives] %>%
+          select(where(is.numeric)) 
+res.pca <- PCA(num, quali.sup = c(1, 2), graph = FALSE)
+
+# valeurs propres et pourcentage de variabilité expliquée
+get_eigenvalue(res.pca)
+fviz_eig(res.pca, addlabels = TRUE)
+```
+
+Les  premières dimensions expliquent plus de 90% de la variance.
+
+###. Etudier le cercle des corrélations.
+
+Pour les deux premières composantes :
+
+```{r}
+fviz_pca_var(res.pca, col.var = "cos2")
+```
+
+Pour la première et la 3ème :
+
+```{r}
+fviz_pca_var(res.pca, col.var = "cos2", axes = c(1,3))
+```
+
+
