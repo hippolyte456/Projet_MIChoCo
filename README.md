@@ -31,9 +31,6 @@ Deux études différentes :
 		**Output :** Fichier .csv (One_Hot_Formulaires.csv ➔ One_Hot)
 		
 		
-		
-https://docs.google.com/document/d/1Ehz_2gBzxZPtm9B04zATLbHiuWhKMypZ55qOL8rHuM4/edit
-		
 		Récupère les fichiers *Formulaires* brut, les pré-traite, transforme les variables catégorielles en variables numériques notamment par One Hot Encoding.
 
 - Dossier **One_Hot_R** :
@@ -60,3 +57,4 @@ https://docs.google.com/document/d/1Ehz_2gBzxZPtm9B04zATLbHiuWhKMypZ55qOL8rHuM4/
 - attention, on a un problème de merge par num
 - métrique entre les choix à définir
 
+https://docs.google.com/document/d/1Ehz_2gBzxZPtm9B04zATLbHiuWhKMypZ55qOL8rHuM4/edit
