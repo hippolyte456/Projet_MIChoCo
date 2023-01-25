@@ -25,6 +25,7 @@ random_df.insert(0, 'index', df['index'])
 random_df = random_df.fillna(0)
 # print(random_df)
 
+
 for convive in convives:
     entree = choice(entrees)
     plat = choice(plats)
@@ -32,6 +33,55 @@ for convive in convives:
     dessert = choice(desserts)
     random_df.loc[random_df['index'] == convive, [entree, plat, accompagnement, dessert]] = 1
 
-fitness = 0
+data_somme = df.iloc[:, 40:].sum(axis='index', numeric_only=True)
+# print(data_somme)
+rd_somme = random_df.sum(axis='index', numeric_only=True)
+# print(rd_somme)
+fitness = abs(data_somme - rd_somme).sum()
+print(fitness)
 
-print(random_df)
+## Modele avec amis
+
+ami_df = pd.DataFrame(columns=df.columns[40:])
+ami_df.insert(0, 'index', df['index'])
+ami_df = ami_df.fillna(0)
+
+# entrees = entrees.union(['test'])
+# print(entrees)
+
+
+# def get_col_name(row):
+#     b = (df.ix[row.name] == row['value'])
+#     return b.index[b.argmax()]
+
+
+convive = '0A2A'
+amis = df.loc[df['index'] == convive].iloc[:, 23:40]
+print(amis)
+for ami in amis.iloc[0,:]:
+    if str(ami) == 'nan':
+        break
+    print(ami)
+    ligne_ami = df.loc[df['index'] == ami]
+    ligne_ami_entrees = ligne_ami.iloc[:, 40:57]
+    # print(ligne_ami_entrees)
+    # ligne_ami_entrees = ligne_ami_entrees.loc[ligne_ami_entrees != '0.0'].index
+    print(ligne_ami_entrees.loc[ligne_ami_entrees.index].eq(ligne_ami_entrees, axis=0).idxmax(axis=1))
+    # ligne_ami_entrees = ligne_ami_entrees.apply(lambda row: row[row == '1'].index, axis=1)
+    # print(ligne_ami_entrees)
+# entrees = entrees.append(pd.Index(['chou']))
+# print(entrees)
+
+# for convive in convives:
+#     amis = df.loc[df['index'] == convive].iloc[:, 23:40]
+#     for ami in amis.iloc[0, :]:
+#         if str(ami) == 'nan':
+#             break
+#         ligne_ami = df.loc[df['index'] == ami]
+#         ligne_ami_entrees = ligne_ami.iloc[40:57]
+#
+#
+#     entree = choice(entrees)
+#     plat = choice(plats)
+#     accompagnement = choice(accompagnements)
+#     dessert = choice(desserts)
