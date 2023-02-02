@@ -18,12 +18,12 @@ plats = df.columns[57:88]
 desserts = df.columns[88:]
 # print(desserts)
 # torsade = plats.get_loc("rotilegumestofu")
-id_accomp = [0, 10, 11, 12, 18, 19, 26, 28, 29, 30]
+id_accomp = [0, 10, 11, 12, 18, 19, 21, 27, 29, 30]
 id_plat_ppal = [k for k in range(31) if k not in id_accomp]
 accompagnements = plats[id_accomp]
 # les accompagnements sont
-# ['torsades', 'brocolis', 'frites', 'ratatouille', 'pommesdeterrevapeur', 'juliennedelegumes', 'riz', 'spaghettis',
-# 'mousselinedepotiron', 'legumes']
+# ['torsades', 'brocolis', 'frites', 'ratatouille', 'pommesdeterrevapeur', 'juliennedelegumes', 'riz', 'saladeverte',
+# 'spaghettis', 'mousselinedepotiron', 'legumes']
 plats = plats[id_plat_ppal]
 
 # print(plats)
@@ -49,7 +49,7 @@ def calc_fitness_rd():
     # print(data_somme)
     rd_somme = random_df.sum(axis='index', numeric_only=True)
     # print(rd_somme)
-    fitness = abs(data_somme - rd_somme).sum()
+    fitness = abs(data_somme - rd_somme).sum()/len(convives.values)
     return fitness
 
 ## Modele avec amis
@@ -70,7 +70,7 @@ def calc_fitness_amis():
     #     return b.index[b.argmax()]
 
 
-
+    cpt_skip = 0
     for convive in convives:
         entrees_temp = entrees.copy()
         plats_temp = plats.copy()
@@ -81,12 +81,14 @@ def calc_fitness_amis():
         # récupération de la liste des amis du convive
         amis = df.loc[df['index'] == convive].iloc[:, 22:39]
         # print(amis)
+
         for ami in amis.iloc[0, :]:
             if str(ami) == 'nan':
                 break
-            if ami not in convives:
+            if str(ami) not in convives.values:
+                cpt_skip += 1
                 continue
-            print(ami)
+            # print(ami)
             entrees_df = df.iloc[:, np.r_[0, 40:57]]
             plats_df = df.iloc[:, np.r_[0, 57:88]]
             desserts_df = df.iloc[:, np.r_[0, 88:118]]
@@ -102,7 +104,7 @@ def calc_fitness_amis():
                 plats_ami = ligne_ami.iloc[:, s_index]  # récupération des noms des plats à partir de l'index
                 plats_ami = plats_ami.columns[1:]  # on enlève la colonne index sélectionnée également
 
-                for _ in range(3):
+                for _ in range(1):
                     if i == 0:  # entrees
                         entrees_temp = entrees_temp.append(plats_ami)
                     elif i == 1:  # plats
@@ -129,19 +131,23 @@ def calc_fitness_amis():
     # print(data_somme)
     ami_somme = ami_df.sum(axis='index', numeric_only=True)
     # print(rd_somme)
-    fitness_ami = abs(data_somme - ami_somme).sum()
-    return fitness_ami
+    fitness_ami = abs(data_somme - ami_somme).sum()/len(convives.values)
+    return fitness_ami, cpt_skip
 
 l_fitness_rd = []
 l_fitness_amis = []
 
 start = time()
-for _ in range(10):
-    l_fitness_rd.append(calc_fitness_rd())
-    l_fitness_amis.append(calc_fitness_amis())
+for _ in range(1):
+    fitness_rd = calc_fitness_rd()
+    fitness_ami, cpt_ami = calc_fitness_amis()
+    l_fitness_rd.append(fitness_rd)
+    l_fitness_amis.append(fitness_ami)
 
 end = time()
 exec_time = end - start
-print(sum(l_fitness_rd)/10)
-print(sum(l_fitness_amis)/10)
+print(sum(l_fitness_rd)/1)
+print(sum(l_fitness_amis)/1)
+# noinspection PyUnboundLocalVariable
+print(cpt_ami)
 print(f'{exec_time} sec')
