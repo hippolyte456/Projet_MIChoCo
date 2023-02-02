@@ -102,7 +102,7 @@ def calc_fitness_amis():
                 plats_ami = ligne_ami.iloc[:, s_index]  # récupération des noms des plats à partir de l'index
                 plats_ami = plats_ami.columns[1:]  # on enlève la colonne index sélectionnée également
 
-                for _ in range(50):
+                for _ in range(3):
                     if i == 0:  # entrees
                         entrees_temp = entrees_temp.append(plats_ami)
                     elif i == 1:  # plats
