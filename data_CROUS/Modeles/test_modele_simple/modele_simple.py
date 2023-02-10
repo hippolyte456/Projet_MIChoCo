@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 from random import choice
 from time import time
+import matplotlib.pyplot as plt
+
 
 filename = "../../data_processed/merged_one_hot/merged_Forms_Choix.csv"
 
@@ -54,7 +56,7 @@ def calc_fitness_rd():
 
 ## Modele avec amis
 
-def calc_fitness_amis():
+def calc_fitness_amis(inf_ami):
     # création d'un dataframe avec la colonne index et une colonne pour chaque plat remplie de 0
     ami_df = pd.DataFrame(columns=df.columns[40:])
     ami_df.insert(0, 'index', df['index'])
@@ -104,7 +106,7 @@ def calc_fitness_amis():
                 plats_ami = ligne_ami.iloc[:, s_index]  # récupération des noms des plats à partir de l'index
                 plats_ami = plats_ami.columns[1:]  # on enlève la colonne index sélectionnée également
 
-                for _ in range(1):
+                for _ in range(inf_ami):
                     if i == 0:  # entrees
                         entrees_temp = entrees_temp.append(plats_ami)
                     elif i == 1:  # plats
@@ -134,20 +136,59 @@ def calc_fitness_amis():
     fitness_ami = abs(data_somme - ami_somme).sum()/len(convives.values)
     return fitness_ami, cpt_skip
 
-l_fitness_rd = []
-l_fitness_amis = []
+
 
 start = time()
-for _ in range(1):
-    fitness_rd = calc_fitness_rd()
-    fitness_ami, cpt_ami = calc_fitness_amis()
-    l_fitness_rd.append(fitness_rd)
-    l_fitness_amis.append(fitness_ami)
+N = 100  # nb d'iterations
+l_inf_ami = [1, 2, 3, 5, 10, 20, 30, 50]  # nb de fois qu'on ajoute le plat d'un ami dans le pool pour le tirage
+l_fitness_rd = []
+l_avg_fitness_ami = []
+l_std_fitness_ami = []
+for inf_ami in l_inf_ami:
+    l_fitness_amis = []
+    for _ in range(N):
+        if inf_ami == l_inf_ami[0]:
+            fitness_rd = calc_fitness_rd()
+            l_fitness_rd.append(fitness_rd)
+        fitness_ami = calc_fitness_amis(inf_ami)[0]
+        l_fitness_amis.append(fitness_ami)
+    avg_fitness_rd = np.mean(l_fitness_rd)
+    std_fitness_rd = np.std(l_fitness_rd)
+    avg_fitness_amis = np.mean(l_fitness_amis)
+    std_fitness_amis = np.std(l_fitness_amis)
 
+    l_avg_fitness_ami.append(avg_fitness_amis)  # moyenne des fitness dans le modèle ami selon les valeurs de inf_ami
+    l_std_fitness_ami.append(std_fitness_amis)
 end = time()
 exec_time = end - start
-print(sum(l_fitness_rd)/1)
-print(sum(l_fitness_amis)/1)
-# noinspection PyUnboundLocalVariable
-print(cpt_ami)
 print(f'{exec_time} sec')
+
+# print([0] + l_inf_ami)
+# print([avg_fitness_rd] + l_avg_fitness_ami)
+
+
+height = [1.843, avg_fitness_rd] + l_avg_fitness_ami
+error = [0, std_fitness_rd] + l_std_fitness_ami
+bars = ['GAMA', '0'] + [str(inf_ami) for inf_ami in l_inf_ami]
+print(height)
+print(error)
+print(bars)
+x_pos = np.arange(len(bars))
+
+plt.figure()
+plt.bar(x_pos, height, color=['red'] + ['blue' for _ in range(len(l_avg_fitness_ami) + 1)], yerr=error)
+plt.xticks(x_pos, bars)
+plt.show()
+
+
+# n_row = 1
+# n_col = len(l_inf_ami) + 1
+# fig, axs = plt.subplots(n_row, n_col)
+# st = fig.suptitle("Fitness en fonction de l'influence des amis")
+
+# for col in range(1, n_col):
+#     axs[col].bar([k for k in range(len(l_inf_ami))], l_avg_fitness_ami[col])
+#     # axs[col].set_xlabel('Nombre de parties simulées par Rollout')
+#     axs[col].set_ylabel('Fitness')
+#     # axs[col].set_title('C =' + str(l_C[col]))
+#     axs[col].set_xticks([k for k in range(len(l_inf_ami))], [str(nb_simul) for nb_simul in l_nb_simul])
