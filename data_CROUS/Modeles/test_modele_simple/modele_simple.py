@@ -140,7 +140,7 @@ def calc_fitness_amis(inf_ami):
 
 start = time()
 N = 100  # nb d'iterations
-l_inf_ami = [1, 2, 3, 5, 10, 20, 30, 50]  # nb de fois qu'on ajoute le plat d'un ami dans le pool pour le tirage
+l_inf_ami = [1, 2, 3, 5, 10, 20, 30, 50, 100, 200]  # nb de fois qu'on ajoute le plat d'un ami dans le pool pour le tirage
 l_fitness_rd = []
 l_avg_fitness_ami = []
 l_std_fitness_ami = []
@@ -175,9 +175,12 @@ print(error)
 print(bars)
 x_pos = np.arange(len(bars))
 
+
 plt.figure()
-plt.bar(x_pos, height, color=['red'] + ['blue' for _ in range(len(l_avg_fitness_ami) + 1)], yerr=error)
+plt.bar(x_pos, height, color=['red'] + ['blue' for _ in x_pos[1:]], yerr=error)
 plt.xticks(x_pos, bars)
+plt.xlabel('Influence des amis')
+plt.ylabel('Fitness')
 plt.show()
 
 
