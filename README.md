@@ -1,6 +1,9 @@
 # Projet_MIChoCo
 **Modélisation Informatique des CHOix en restauration COllectives**
 
+
+rapport : https://fr.overleaf.com/3564487958yqcdsxwjmmpn 
+
 ## Données
 
 Dans `data_CROUS` deux types de données :
