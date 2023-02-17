@@ -1,0 +1,143 @@
+---
+title: "motifs_frequents"
+author: "Hélène PHILIPPE"
+date: "2023-02-17"
+output:
+  pdf_document: default
+  html_document: default
+---
+### OBJECTIFS : 
+- Trouver les motifs fréquents en se bansat sur leur **support + self sufficient**
+- Mesurer la corrélation entre les variables : **test de Fisher**
+
+### Import packages
+```{r setup, include=FALSE}
+#install.packages("opusminer")
+#install.packages("arulesViz")
+```
+
+```{r setup, include=FALSE}
+library("opusminer")
+library("arules")
+library("ggplot2")
+library("arulesViz")
+```
+
+### Préparation des données
+```{r setup, include=FALSE}
+setwd("C:/Users/actou/OneDrive/Documents/IODAA/AZOTE/Github/fil_rouge/Orange")
+df <- read.csv("data_categorielle_opus.csv", sep=";")
+```
+
+## Exploration du dataset
+
+```{r}
+trans = read_transactions("data_categorielle_opus.csv", format = "transactions") 
+summary(trans)
+summary(itemFrequency(trans))
+itemFrequencyPlot(trans, topN = 10)
+plot(sort(itemFrequency(trans, type="absolute"), decreasing=TRUE),
+     xlab = "Items", ylab="Support Count", type="l")
+abline(h=413)
+```
+
+## Extraire les motifs frequents : 
+Algorithme utilisé = APRIORI
+```{r setup, include=FALSE}
+rules<- apriori(df, parameter = list(supp = 0.1, conf = 0.5, target = "rules"))
+rules
+```
+```{r}
+summary(rules)
+inspect(head(rules, n = 3, by = "lift"))
+```
+
+Viusualiser les règles d'associations 
+```{r}
+#plot(rules,,main="rules_apriori")
+plot(rules, method = "graph", limit = 30,main="rules")
+```
+## Check de la qualité du df 
+
+### Significativité et redondance
+```{r}
+significance <- is.significant(rules, trans)
+rules[significance] 
+summary(rules[significance])
+```
+```{r}
+redundancy <- is.redundant(rules)
+summary(rules[!redundancy])
+```
+
+
+### Analyse des métriques 
+```{r}
+quality(rules) <- cbind(quality(rules), interestMeasure(rules, measure = c("phi", "hyperConfidence", "hyperLift"), trans = trans))
+inspect(head(rules, by = "phi"))
+```
+
+### Générer les motifs fréquents 
+
+```{r}
+itemset <- unique(generatingItemsets(rules))
+intemset
+itemset.df <- as(itemset, "data.frame")
+frequentItemset <- itemset.df[with(itemset.df, order(-support, items)),]
+names(frequentItemset)[1] <- "itemset"
+```
+
+
+## Top K de motifs non redondants 
+L'indepedance des motifs semble prise en compte dans les pramètres:
+- filter_itemsets: filter itemsets that are not independently productive (default TRUE)
+- search_by_lift make lift (rather than leverage) the measure of interest (default FALSE)
+- correct_for_mult_compare correct alpha for the size of the search space (default TRUE)
+- redundancy_tests:exclude redundant itemsets (default TRUE)
+
+
+```{r}
+#result <- opus(trans, k = 100)
+result <- opus(trans, k = 100, print_closures = FALSE, filter_itemsets = TRUE, search_by_lift = FALSE, correct_for_mult_compare = TRUE, redundancy_tests = TRUE)
+#result[order(result$support, decreasing = TRUE),]
+ruleExplorer(rules)
+```
+## test de fisher 
+```{r}
+
+
+#run the Fisher exact test
+results <- opusminer::fisher_exact_test(trans, itemset)
+
+#check if the itemset is significantly frequent
+if (results$p.value < 0.05) {
+    print("The itemset is significantly frequent")
+} else {
+    print("The itemset is not significantly frequent")
+}
+```
+
+## Algorithme OPUS Miner pour la découverte d'association top-k filtrée
+Les fichiers doivent être au format d'une liste de transactions, une ligne par transaction, chaque transaction étant une séquence d'étiquettes d'éléments. La documentation du package opusminer : https://rdrr.io/cran/opusminer/src/R/opusminer.R
+
+```{r}
+frequent_itemsets <- sort(result@frequent_itemsets, by = "support", decreasing = TRUE)
+sufficient_itemsets <- frequent_itemsets[result@sufficient_sets[,2]]
+print(sufficient_itemsets)
+rules <- apriori(trans, parameter = list(supp = 0.5, conf = 0.8))
+inspect(rules)
+```
+
+```{r}
+trans <- read_transactions("data_categorielle_opus.csv", format = "transactions")
+result <- opus(trans, print_closures = TRUE)
+inherits(result, "S4")
+class(result)
+frequent_itemsets <- sort(result@frequent_itemsets, by = "support", decreasing = TRUE)
+sufficient_itemsets <- frequent_itemsets[result@sufficient_sets[,2]]
+print(sufficient_itemsets)
+```
+
+result <- opus(trans, print_closures = TRUE) 
+summary(trans)
+
