@@ -61,4 +61,8 @@ Deux études différentes :
 - métrique entre les choix à définir
 - 
 
+* debut rapport 
 https://docs.google.com/document/d/1Ehz_2gBzxZPtm9B04zATLbHiuWhKMypZ55qOL8rHuM4/edit
+* slide de presentation 
+https://docs.google.com/presentation/d/1XvhYgZHAEqlKQJA5azQACNRav1TucTLHqc44Dp12wV4/edit#slide=id.g1d72cde9370_4_0
+
