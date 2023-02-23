@@ -53,13 +53,13 @@ global{
 	float choix_personnel_moyenne <- 0.3;
 	float choix_personnel_et <- 1.0;
     
-	float proba_depassement1point <- 0.6;
+	float proba_depassement1point <- 0.1;
 	float proba_manque1point <- 0.8;
-	float proba_depassement2points <- 0.2; 
+	float proba_depassement2points <- 0.05; 
 	float force_perception_plat <- 0.2; // à quel point un plat qui est à coté de moi va m'influencer
 	
-	float proba_autre_entree <- 0.1; //probabilité de prendre une autre entree
-	float proba_autre_dessert <- 0.4; //probabilité de prendre un autre dessert
+	float proba_autre_entree <- 0.01; //probabilité de prendre une autre entree
+	float proba_autre_dessert <- 0.45; //probabilité de prendre un autre dessert
 	float proba_encore <- 0.8; //probabilite de prendre même entree ou même dessert 
 	float temps_entre_groupes <- 14 #s;
 	
@@ -110,7 +110,7 @@ global{
 		"Plateau"::image_file("../includes/visualisation/plateau.png")
 	]);
 	
-	string scenario <- "LDV_22_octobre" among: [ "LDV_21_octobre",  "LDV_22_octobre",  "ENS_28_octobre", "ENS_29_octobre"];
+	string scenario <- "LDV_21_octobre" among: [ "LDV_21_octobre",  "LDV_22_octobre",  "ENS_28_octobre", "ENS_29_octobre"];
 	string lieu_scenario <- (scenario split_with "_") [0];
 	string jour_scenario <-  (scenario split_with "_") [1];
 	string mois_scenario <-  (scenario split_with "_") [2];

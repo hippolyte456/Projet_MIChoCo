@@ -110,7 +110,7 @@ global{
 		"Plateau"::image_file("../includes/visualisation/plateau.png")
 	]);
 	
-	string scenario <- "LDV_22_octobre" among: [ "LDV_21_octobre",  "LDV_22_octobre",  "ENS_28_octobre", "ENS_29_octobre"];
+	string scenario <- "LDV_21_octobre" among: [ "LDV_21_octobre",  "LDV_22_octobre",  "ENS_28_octobre", "ENS_29_octobre"];
 	string lieu_scenario <- (scenario split_with "_") [0];
 	string jour_scenario <-  (scenario split_with "_") [1];
 	string mois_scenario <-  (scenario split_with "_") [2];
